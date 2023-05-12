@@ -1,4 +1,7 @@
 @import url(global.css);
+@import url(variables.css);
+@import url(components.css);
+
 @import url(history.css);
 @import url(contacts.css);
 @import url(footer.css);
