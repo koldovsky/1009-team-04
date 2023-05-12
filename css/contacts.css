@@ -1,0 +1,15 @@
+.contacts {
+    background: url(../images/background-contacts.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 90px 0px;
+}
+
+.contacts__title {
+    font-size: 34px;
+    color: var(--color-titles);
+}
+
+.contacts__info-arrow {
+    margin-top: 25px;
+}
