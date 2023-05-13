@@ -1,15 +1,32 @@
-.div__info__about-company h2 { 
+.info__about-company h2 { 
     color: var(--color-for-text-title);
-    font-family: Roboto, sans-serif;
-    font-size: 19px;
+    font-family: Benchnine, sans-serif;
+    font-size: 46px;
  }
  
- .div__info__about-company {
+ .info {
     background-color: var(--color-for-background-about-havana);
  }
 
- .div__info__about-company p { 
-    color: var(color-for-text-paragraph);
+ .info__about-company p { 
+    color: var(--color-for-text-paragraph);
     font-family: Roboto , sans-serif;
     font-size: 17px;
  }
+.info__about-company img {
+width: 100px;
+}
+.green__leaves {
+   
+    width:570px;
+    height:485,98px;
+
+}
+ 
+.info__decoration {
+   
+    width:570px;
+    height:32x;
+
+
+}
