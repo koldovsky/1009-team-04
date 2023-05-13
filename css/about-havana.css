@@ -1,0 +1,15 @@
+.div__info__about-company h2 { 
+    color: var(--color-for-text-title);
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+ }
+ 
+ .div__info__about-company {
+    background-color: var(--color-for-background-about-havana);
+ }
+
+ .div__info__about-company p { 
+    color: var(color-for-text-paragraph);
+    font-family: Roboto , sans-serif;
+    font-size: 17px;
+ }
