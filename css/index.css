@@ -1,3 +1,13 @@
+@import url(global.css);
+<<<<<<< HEAD
+@import url(history.css);
+@import url(about-havana.css);
+@import url(age-restriction-warning.css);
+=======
+@import url(variables.css);
+@import url(components.css);
+
 @import url(history.css);
 @import url(contacts.css);
 @import url(footer.css);
+>>>>>>> 81e92e023955cf39322ff8a5ffb53ef28b37b250
