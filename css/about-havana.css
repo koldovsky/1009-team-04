@@ -1,4 +1,5 @@
 .info__title { 
+   
     color: var(--color-for-text-title);
     font-family: BenchNine , sans-serif;
     font-size: 46px;
@@ -16,11 +17,14 @@
     color: var(--color-for-text-paragraph);
     font-family: Roboto , sans-serif;
     font-size: 17px;
-    pa
+    
  }
-.info__about-company img {
-width: 100px;
+
+.info__about-company {
+    width:570px;
+    height:32px;
 }
+
 .green__leaves {
    
     width:570px;
@@ -30,8 +34,7 @@ width: 100px;
  
 .info__decoration {
    
-    width:570px;
-    height:32x;
+    width: 150px;
 }
 .info {
     display: grid;
@@ -45,7 +48,7 @@ width: 100px;
     padding-top: 40px;
 }
 .info__section-shops {
-    padding-bottom: 20px
+    padding-bottom: 20px;
 
 }
 .buttons {
@@ -60,8 +63,7 @@ width: 100px;
     padding: 12px 24px;
     margin-right: 25px;
     font-weight: 600;
-    b
-
+    
 }
 
 .buttons__learn-btn {
@@ -79,7 +81,7 @@ width: 100px;
 
 }
 .buttons__learn-btn:hover {
-color: black;
+    color: black;
     background-color: white;
 }
 
