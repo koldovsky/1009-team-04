@@ -17,7 +17,10 @@
 .contacts__arrow {
     margin-top: 25px;
 }
-
+.contacts__arrow img {
+    object-fit: contain;
+    object-position: 0.819% 45.833%;
+}
 .contacts__text {
     color: var(--color-text-info);
     margin-top: 20px;
