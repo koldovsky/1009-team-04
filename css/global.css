@@ -1,0 +1,32 @@
+:root {
+    --color-for-background-restriction:rgb(197, 163, 92);
+    --color-for-text-restriction:white;
+    --color-for-background-about-havana: #343232;
+    --color-for-text-title:rgb(197, 163, 92);
+    --color-for-text-paragraph: white;
+ }
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: var(--primary-font-family);
+    scroll-behavior: smooth;
+}
+
+img, iframe {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}

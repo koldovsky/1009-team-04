@@ -1,0 +1,89 @@
+.info__title { 
+    color: var(--color-for-text-title);
+    font-family: BenchNine , sans-serif;
+    font-size: 46px;
+    width: 233,14px;
+    height: 61,33px;
+    padding-bottom: 40px;
+
+ }
+ 
+ .info {
+    background-color: var(--color-for-background-about-havana);
+ }
+
+ .info__about-company p { 
+    color: var(--color-for-text-paragraph);
+    font-family: Roboto , sans-serif;
+    font-size: 17px;
+    pa
+ }
+.info__about-company img {
+width: 100px;
+}
+.green__leaves {
+   
+    width:570px;
+    height:485,98px;
+
+}
+ 
+.info__decoration {
+   
+    width:570px;
+    height:32x;
+}
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+} 
+.info__info-text {
+    color: var(--color-for-text-title);
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.info__section-shops {
+    padding-bottom: 20px
+
+}
+.buttons {
+    padding-top: 20px;
+}
+
+.buttons__contact-btn {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(197, 163, 92);
+    padding: 12px 24px;
+    margin-right: 25px;
+    font-weight: 600;
+    b
+
+}
+
+.buttons__learn-btn {
+    text-decoration: none;
+    color: white;
+    background: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    border: 2px solid white ;
+
+}
+
+.buttons__contact-btn:hover {
+   background-color: gray;
+
+}
+.buttons__learn-btn:hover {
+color: black;
+    background-color: white;
+}
+
+.social__media__facebook:hover {
+
+background-color: #d0c8b9;
+}
