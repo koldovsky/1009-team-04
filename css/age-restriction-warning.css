@@ -1,0 +1,9 @@
+.div__age-restriction-warning p {
+    background-color: var(--color-for-background-restriction);
+    color: var(--color-for-text-restriction);
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    padding: 20px;
+}
+

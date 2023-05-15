@@ -1,0 +1,74 @@
+.contacts {
+    background: url(../images/background-contacts.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 60px 0px;
+}
+
+.contacts__info {
+    margin: 30px;
+}
+
+.contacts__title {
+    font-size: 34px;
+    color: var(--color-titles);
+}
+
+.contacts__arrow {
+    margin-top: 25px;
+}
+.contacts__arrow img {
+    object-fit: contain;
+    object-position: 0.819% 45.833%;
+}
+.contacts__text {
+    color: var(--color-text-info);
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: var(--secondary-font-family);
+}
+
+.contacts__adress {
+    color: var(--color-titles);
+    margin-bottom: 5px;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.contacts__adress a {
+    color: var(--color-link-text);
+    font-family: var(--secondary-font-family);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.contacts__contact {
+    color: var(--color-titles);
+    margin-bottom: 5px;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.contacts__contact a {
+    color: var(--color-link-text);
+    font-family: var(--secondary-font-family);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.contacts__map {
+    margin-top: 30px;
+}
+
+.contacts__request {
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.contacts__form {
+    padding: 39px 55px;
+}
+
+.contacts__form textarea {
+    min-height: 150px;
+    width: 100%;
+}
