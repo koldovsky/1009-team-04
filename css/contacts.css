@@ -14,58 +14,61 @@
     color: var(--color-titles);
 }
 
-.contacts__info-arrow {
+.contacts__arrow {
     margin-top: 25px;
 }
-
-.contacts__info-text {
+.contacts__arrow img {
+    object-fit: contain;
+    object-position: 0.819% 45.833%;
+}
+.contacts__text {
     color: var(--color-text-info);
     margin-top: 20px;
     font-size: 19px;
     font-family: var(--secondary-font-family);
 }
 
-.contacts__info-adress {
+.contacts__adress {
     color: var(--color-titles);
     margin-bottom: 5px;
     font-size: 22px;
     margin-top: 25px;
 }
 
-.contacts__info-adress a {
+.contacts__adress a {
     color: var(--color-link-text);
     font-family: var(--secondary-font-family);
     font-size: 17px;
     text-decoration: none;
 }
 
-.contacts__info-contact {
+.contacts__contact {
     color: var(--color-titles);
     margin-bottom: 5px;
     font-size: 22px;
     margin-top: 25px;
 }
 
-.contacts__info-contact a {
+.contacts__contact a {
     color: var(--color-link-text);
     font-family: var(--secondary-font-family);
     font-size: 17px;
     text-decoration: none;
 }
 
-.contacts__info-map {
+.contacts__map {
     margin-top: 30px;
 }
 
-.contacts__info-request {
+.contacts__request {
     margin-top: 50px;
     padding: 0 15px;
 }
-.contacts__info-form {
+.contacts__form {
     padding: 39px 55px;
 }
 
-.contacts__info-form textarea {
+.contacts__form textarea {
     min-height: 150px;
     width: 100%;
 }
