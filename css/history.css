@@ -7,7 +7,7 @@
 		color: var(--color-for-background-restriction);
 		font-family: var(--primary-font-family);
     	scroll-behavior: smooth;
-         font-size: 40px;
+        font-size: 40px;
     }
 img{
         max-width: 100%;
@@ -15,7 +15,7 @@ img{
     
     }
 #services-section{
-    background-color: #343232;
+    background-color: var(--color-for-background-about-havana);
 }
 
 #services-section{
