@@ -1,17 +1,48 @@
-.brand .info__title{
+.info__title {
+    color: var(--color-titles);
+    font-family: var(--primary-font-family);
+    height: 40px;
+    margin: auto;
+}
+
+.info__text {
+    color: var(--color-text-info);
+    font-family: var(--secondary-font-family);
+    height: 57px;
+    width: 584px;
+    margin: auto;
+}
+
+.making-cigarettes__title {
     color: var(--color-titles);
     font-family: var(--primary-font-family);
 }
-.brand .brand__info{
-    text-align: center;  
-    align-items: center;
+
+.making-cigarettes__text {
+    color: var(--color-link-text);
+    font-family: var(--secondary-font-family);
+}
+.making-cigarettes__video video {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.making-cigarettes__video {
+    float: left;
+}
+.making-cigarettes__info{
+    float: right;
+}
+.brand__info {
+    text-align: center;
 }
 
-.brand__info img{
+.brand__info img {
     width: 615px;
     height: 32px;
-    align-items: center;
+    margin: auto;
 }
-.brand{
+
+.brand {
     background-color: #1b191a;
 }
