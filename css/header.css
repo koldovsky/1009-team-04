@@ -2,55 +2,37 @@
     margin: 0;
     padding:0;
     box-sizing:border-box;
-}
+
+
 .header {
-    background-imageimg.background {;
-    padding: 5px;
+  background-image: url("header.background.png");
+  background-size: cover;
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.header__title,
-.header__logo {
-    font-size: 3.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
 
-.header__menu {
-    flex-direction: column;
-    display: flex;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
-
-.header__menu .menu__item {
+.buttons__contact-btn {
     text-decoration: none;
-    color: var(--main-color);
-}
-
-.header__menu .menu__item:hover {
-    text-decoration: underline;
-}
-
-@media (min-width: 500px) {
-    .header__nav {
-        display: flex;
-    }
-    .header__menu {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex: 1;
-    }
-}
-
-.header__banner {
-    align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url(../img/baby-yoda.svg);
-    background-size: cover;
-    /* background-attachment: fixed; */
-    background-position: 50% 50%;
-    display: flex;
-    min-height: 500px;
-    justify-content: center;
-    flex-direction: column;
+    color: white;
+    background-color: rgb(197, 163, 92);
+    padding: 12px 24px;
+    margin-right: 25px;
+    font-weight: 600;
 }
