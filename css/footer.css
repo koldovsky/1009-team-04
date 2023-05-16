@@ -41,6 +41,10 @@
     text-decoration: none;
 }
 
+.footer__item a:hover {
+    color: var(--color-footer-hover);
+}
+
 .divider-component {
     margin: 0 auto;
     height: 1px;
@@ -78,5 +82,15 @@
 
     .footer__copyright {
         margin: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer__menu {
+        flex-direction: row;
+    }
+
+    .footer__item {
+        font-size: 13px;;
     }
 }

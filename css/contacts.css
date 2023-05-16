@@ -106,11 +106,16 @@ textarea {
     padding: 14px 20px;
 }
 
+.contacts__btn:hover {
+    background-color: var(--color-contact-btn-hover);
+}
+
 @media (min-width: 768px) {
+    
     .contacts__info {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .contacts__box {
@@ -127,5 +132,12 @@ textarea {
 
     .contacts__form {
         padding: 46px 70px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .contacts__form {
+        padding: 50px 100px;
     }
 }
