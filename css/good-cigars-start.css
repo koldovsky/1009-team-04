@@ -1,0 +1,63 @@
+.brand-info {
+    background-image: url(../images/background-contacts.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 90px 0px;
+}
+
+.brand-info-about-tobacco__title {
+    font-family: var(--primary-font-family);
+    font-size: 34px;
+    color: var(--color-titles);
+    text-align: center;
+}
+
+.brand-info-about-tobacco__arrow {
+    margin-top: 25px;
+}
+
+.brand-info-about-tobacco__text {
+    font-family: var(--secondary-font-family);
+    font-size: 19px;
+    color: var(--color-text-info);
+    text-align:center;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.cigars-production{
+    
+    border-style: rgb(63, 50, 41);
+    border: 598px 638px;
+}
+
+.cigars-production__title{
+    font-family: var(--primary-font-family);
+    font-size: 22px;
+    color: var(--color-titles);
+    text-align:left;
+}
+
+.cigars-production__text{
+    font-family: var(--secondary-font-family);
+    font-size: 17px;
+    color: var(--color-link-text);
+    text-align:left;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.quality_of_production__title{
+    font-family: var(--primary-font-family);
+    font-size: 22px;
+    color: var(--color-titles);
+    text-align:left;
+}
+
+.quality_of_production__text{
+    font-family: var(--secondary-font-family);
+    font-size: 17px;
+    color: var(--color-link-text);
+    text-align:left;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
