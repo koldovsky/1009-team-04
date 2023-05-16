@@ -2,8 +2,8 @@
     background-color: var(--color-footer-bg);
     font-family: var(--secondary-font-family);
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,4 +59,24 @@
 
 .footer__copyright {
     margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .footer__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .footer__info {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .footer__copyright {
+        margin: 0;
+    }
 }
