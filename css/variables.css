@@ -3,6 +3,12 @@
     --secondary-font-family: "Roboto", sans-serif;
 
     --color-titles: #c5a35c;
-    --color-text-info:#d0c8b9;
-    --color-link-text:#ffffff;
+    --color-text-info: #d0c8b9;
+    --color-link-text: #ffffff;
+
+    --color-for-background-restriction: rgb(197, 163, 92);
+    --color-for-text-restriction: white;
+    --color-for-background-about-havana: #343232;
+    --color-for-text-title: rgb(197, 163, 92);
+    --color-for-text-paragraph: white;
 }
