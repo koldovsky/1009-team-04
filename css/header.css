@@ -2,10 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing:border-box;
-}
-:root{
-    --main-text-color:white;
-}
+
 
 .header {
   background-image: url("header.background.png");
