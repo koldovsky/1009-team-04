@@ -1,0 +1,17 @@
+.brand .info__title{
+    color: var(--color-titles);
+    font-family: var(--primary-font-family);
+}
+.brand .brand__info{
+    text-align: center;  
+    align-items: center;
+}
+
+.brand__info img{
+    width: 615px;
+    height: 32px;
+    align-items: center;
+}
+.brand{
+    background-color: #1b191a;
+}

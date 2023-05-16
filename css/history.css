@@ -1,22 +1,13 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-.container{
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
 .title-selection{
         margin-bottom: 40px;
-        font-size: 52px;
+        font-size: 40px;
         line-height: 64px;
         letter-spacing: 0.6px;
         text-align: center;
-         
+		color: var(--color-for-background-restriction);
+		font-family: var(--primary-font-family);
+    	scroll-behavior: smooth;
+        font-size: 40px;
     }
 img{
         max-width: 100%;
@@ -24,7 +15,7 @@ img{
     
     }
 #services-section{
-    background-color: #343232;
+    background-color: var(--color-for-background-about-havana);
 }
 
 #services-section{
@@ -40,6 +31,9 @@ img{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 24px;	
+	font-family: var(--primary-font-family);
+    scroll-behavior: smooth;
+	margin-bottom: 50px;
 }
 
 .services__img{
@@ -51,11 +45,49 @@ img{
 	margin-bottom: 16px;
 	font-size: 24px;
 	line-height: 32px;
+	color: var(--color-for-background-restriction);
 }
 
 .services-text{
 	font-size: 16px;
 	line-height: 28px;
-	color: #FFFFFF;
+	color: var(--color-for-text-restriction);
 	opacity: 0.7;
+	color: var(--color-for-text-restriction);
+}
+
+.info__decoration {
+    width:120px;
+	padding-top: -200px;
+	margin-left: 535px;
+	margin-top: -50px;
+}
+
+.services-section__about{
+	color: var( --color-for-background-restriction);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: var(--primary-font-family);
+    scroll-behavior: smooth;
+	font-size: 20px;
+}
+
+.services-section__button{
+	text-decoration: none;
+	color: var(--color-for-text-restriction);
+	border: 2px solid var(--color-for-text-restriction);
+	margin-left: 670px;
+	padding: 12px 24px;
+    font-weight: 600;
+	font-family: var(--primary-font-family);
+    scroll-behavior: smooth;
+	
+}
+
+.services-section__button:hover{
+	background-color: var(--color-for-text-restriction);
+	color: var(--color-for-background-about-havana);
+	font-family: var(--primary-font-family);
+    scroll-behavior: smooth;
 }
