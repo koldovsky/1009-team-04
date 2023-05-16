@@ -28,4 +28,11 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.buttons__contact-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(197, 163, 92);
+    padding: 12px 24px;
+    margin-right: 25px;
+    font-weight: 600;
+}
