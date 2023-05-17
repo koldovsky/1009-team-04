@@ -7,7 +7,6 @@
 	color: var(--color-for-background-restriction);
 	font-family: var(--primary-font-family);
     scroll-behavior: smooth;
-    font-size: 40px;
     }
 
 img {
@@ -44,6 +43,7 @@ img {
 	}
 
 .services-title {
+	text-align: center;
 	margin-bottom: 16px;
 	font-size: 24px;
 	line-height: 32px;
@@ -51,7 +51,8 @@ img {
 	}
 
 .services-text {
-	font-size: 16px;
+	font-size: 20px;
+	text-align: center;
 	line-height: 28px;
 	color: var(--color-for-text-restriction);
 	opacity: 0.7;
@@ -59,12 +60,9 @@ img {
 	}
 
 .title__decoration {
-    width:120px;
-	padding-top: -200px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 620px;
 	margin-top: -50px;
-	text-align: center;
+	margin-left: 680px;
 	}
 
 .services-section__about {
@@ -74,14 +72,14 @@ img {
 	text-align: center;
 	font-family: var(--primary-font-family);
     scroll-behavior: smooth;
-	font-size: 20px;
+	font-size: 28px;
 	}
 
 .services-section__button {
 	text-decoration: none;
 	color: var(--color-for-text-restriction);
 	border: 2px solid var(--color-for-text-restriction);
-	margin-left: 670px;
+	margin-left: 700px;
 	padding: 12px 24px;
     font-weight: 600;
 	font-family: var(--primary-font-family);
@@ -119,7 +117,7 @@ img {
 	}
 
 	.services-section__button{
-		margin-left: 150px;
+		margin-left: 170px;
 	}
 	
 	.services-section__about{
