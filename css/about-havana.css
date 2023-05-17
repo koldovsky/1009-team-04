@@ -1,56 +1,71 @@
-.info__title { 
-   
+.info__title {
+
     color: var(--color-for-text-title);
-    font-family: BenchNine , sans-serif;
+    font-size: 24px;
+    width: 233, 14px;
+    height: 61, 33px;
+    padding-bottom: 12px;
+    letter-spacing: 1, 38px;
+    line-height: 52, 578;
+    padding-top: 20px;
+    text-transform: uppercase;
     font-size: 46px;
-    width: 233,14px;
-    height: 61,33px;
-    padding-bottom: 40px;
+    font-family: "BenchNine", sans-serif;
+}
 
- }
- 
- .info {
-    background-color: var(--color-for-background-about-havana);
- }
+.info {
+    background-color: black;
+    padding: 65px;
+}
 
- .info__about-company p { 
+.info__about-company p {
     color: var(--color-for-text-paragraph);
-    font-family: Roboto , sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 17px;
-    
- }
+    padding-top: 20px;
+}
 
 .info__about-company {
-    width:570px;
-    height:32px;
+    color: var(--color-for-text-title);
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
+
 
 .green__leaves {
-   
-    width:570px;
-    height:485,98px;
+
+    width: 570px;
+    height: 485, 98px;
 
 }
- 
-.info__decoration {
-   
-    width: 150px;
-}
-.info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
 
-} 
-.info__info-text {
-    color: var(--color-for-text-title);
-    padding-bottom: 50px;
-    padding-top: 40px;
-}
-.info__section-shops {
+
+.info__decor {
+
+    width: 120px;
+    margin-right: 535px;
+    text-decoration: none;
     padding-bottom: 20px;
 
 }
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+.info__info-text {
+    color: var(--color-for-text-title);
+
+}
+
+.info__section-shops {
+    padding-bottom: 20px;
+}
+
 .buttons {
     padding-top: 20px;
 }
@@ -60,32 +75,28 @@
     text-decoration: none;
     color: white;
     background-color: rgb(197, 163, 92);
-    padding: 12px 24px;
-    margin-right: 25px;
+    padding: 10px 10px;
+    margin-right: 10px;
     font-weight: 600;
-    
+    ;
 }
 
 .buttons__learn-btn {
     text-decoration: none;
     color: white;
     background: none;
-    padding: 12px 24px;
+    padding: 10px 10px;
     font-weight: 600;
-    border: 2px solid white ;
+    border: 1px solid white;
 
 }
 
 .buttons__contact-btn:hover {
-   background-color: gray;
+    background-color: gray;
 
 }
+
 .buttons__learn-btn:hover {
     color: black;
     background-color: white;
-}
-
-.social__media__facebook:hover {
-
-background-color: #d0c8b9;
 }
