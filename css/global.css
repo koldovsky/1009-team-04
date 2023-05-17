@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 :root {
-    --color-for-background-restriction:rgb(197, 163, 92);
-    --color-for-text-restriction:white;
+    --color-for-background-restriction: rgb(197, 163, 92);
+    --color-for-text-restriction: white;
     --color-for-background-about-havana: #343232;
-    --color-for-text-title:rgb(197, 163, 92);
+    --color-for-text-title: rgb(197, 163, 92);
     --color-for-text-paragraph: white;
- }
- 
- @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    --color-for-background-good-cigars-brown:rgb(63, 50, 41);
+    --color-for-background-good-cigars-green:rgba(49, 53, 35, 0.95);
+}
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -19,7 +23,8 @@
     scroll-behavior: smooth;
 }
 
-img, iframe {
+img,
+iframe {
     display: block;
     width: 100%;
 }
@@ -27,4 +32,8 @@ img, iframe {
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+ul {
+    list-style: none;
 }

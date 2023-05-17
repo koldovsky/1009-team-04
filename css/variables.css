@@ -3,6 +3,25 @@
     --secondary-font-family: "Roboto", sans-serif;
 
     --color-titles: #c5a35c;
+<<<<<<< HEAD
+    --color-text-info: #d0c8b9;
+    --color-link-text: #ffffff;
+
+    --color-for-background-restriction: rgb(197, 163, 92);
+    --color-for-text-restriction: white;
+    --color-for-background-about-havana: #343232;
+    --color-for-text-title: rgb(197, 163, 92);
+    --color-for-text-paragraph: white;
+}
+=======
     --color-text-info:#d0c8b9;
     --color-link-text:#ffffff;
+    --color-contacts-form:#1b191a;
+    --color-contacts-form-placeholder:#242424;
+    --color-contact-btn:#c5a35c;
+    --color-contact-btn-hover:#3f3229;
+    --color-footer-bg:#212020;
+    --color-footer-info:#d0c8b9;
+    --color-footer-hover:#c5a35c;
 }
+>>>>>>> 406ed8b8920c34b1c51c2fed872149807479b3c8
