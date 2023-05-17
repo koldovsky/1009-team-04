@@ -15,5 +15,9 @@
   display: inline-block;
 }
   .image {
-     center-image: url(images/cigarets-na.png) float:center;
+  center-image: url(images/cigarets-na.png) float:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ width: 50%;
     }
