@@ -10,11 +10,8 @@
   display: inline-block;
 }
 
-.image {
-  center-image: url(images/cigarets-na.png);
-  float: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.header {
+image:url("cigarets-na.png");
+  width:177px;
+  height:auto;
 }
