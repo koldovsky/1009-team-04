@@ -10,7 +10,8 @@
   display: inline-block;
 }
 
-.header__header__logo img {
-width:177px;
+.header {
+image:url("cigarets-na.png");
+  width:177px;
   height:auto;
 }
