@@ -1,22 +1,22 @@
 .about {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: black;
-padding: 20px;
+    padding: 20px;
 }
 
 .green__leaves {
 
-    width: 480px;
-    height: 300px;
-    box-sizing: border-box;
-    object-fit: cover;
-    overflow-clip-margin: content-box;
+    width: 500px;
+    height: 350;
+     overflow: hidden;
 
 }
 
+
 .about__title {
     color: var(--color-for-text-title);
+
 
 }
 
@@ -24,8 +24,6 @@ padding: 20px;
 
     width: 60px;
 }
-
-
 
 
 .about__info-text {
@@ -40,7 +38,6 @@ padding: 20px;
 }
 
 .buttons__contact-btn:hover {
-    background-color: gray;
     text-transform: uppercase;
 }
 
@@ -49,8 +46,6 @@ padding: 20px;
     text-decoration: none;
     color: white;
     background-color: rgb(197, 163, 92);
-   
-    
 
 }
 
@@ -71,3 +66,11 @@ padding: 20px;
     color: black;
     background-color: white;
     text-transform: uppercase;
+}
+
+/*@media (min-width: 700px) {
+    .about {
+        display: flex;
+        flex-direction: row;
+    }
+}
