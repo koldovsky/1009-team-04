@@ -1,40 +1,50 @@
 .about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: black;
     padding: 20px;
+    font-size: 20px;
 }
 
 .green__leaves {
 
-    width: 500px;
-    height: 350;
-     overflow: hidden;
+    width: 570px;
+    height: 485, 98px;
+    ;
 
 }
 
 
 .about__title {
     color: var(--color-for-text-title);
-
+    padding: 10px;
 
 }
 
 .about__decor {
 
     width: 60px;
+    padding: 10px;
+    width: 150px;
 }
 
 
 .about__info-text {
 
     color: var(--color-for-text-title);
+    padding: 10px;
 
 }
 
 .about__section-shops {
     color: var(--color-for-text-paragraph);
+    padding: 10px;
+    font-size: 19px;
+}
 
+.about__social-media {
+
+    padding: 20px;
 }
 
 .buttons__contact-btn:hover {
@@ -46,7 +56,7 @@
     text-decoration: none;
     color: white;
     background-color: rgb(197, 163, 92);
-
+    padding: 10px;
 }
 
 .buttons__learn-btn {
@@ -54,7 +64,7 @@
     color: white;
     background: none;
     border: 2px solid white;
-
+    padding: 10px;
 }
 
 .buttons__contact-btn:hover {
@@ -68,9 +78,13 @@
     text-transform: uppercase;
 }
 
-/*@media (min-width: 700px) {
+@media (min-width: 700px) {
     .about {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        align-items: left;
+        gap: 30px;
     }
 }
