@@ -10,7 +10,8 @@
 
     width: 570px;
     height: 485, 98px;
-    ;
+    overflow: auto; 
+
 
 }
 
