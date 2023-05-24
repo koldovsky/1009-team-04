@@ -1,49 +1,57 @@
-//https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
-function stringToArray(string){
-  return string.split(" ");
+// 1. https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/train/javascript
+class SmallestIntegerFinder {
+    findSmallestInt = args => Math.min(...args);
 }
-//https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
-function DNAtoRNA(dna) {
-  const rna = dna.replaceAll("T", "U");
-  return rna;
+// 2. https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
+const circleCircumference = circle => 2 * Math.PI * circle.radius;
+// 3. https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
+function giveMeFive(obj) {
+    let result = [];
+
+    for (let key in obj) {
+        if (key.length === 5) {
+            result.push(key);
+        }
+
+        if (obj[key].length === 5) {
+            result.push(obj[key]);
+        }
+    }
+
+    return result;
 }
-//https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
-const min=function(list) {
- return Math.min(...list);
+// 4. по замиканню https://www.codewars.com/kata/understanding-closures-the-basics/train/javascript
+function buildFun(n) {
+    let res = [];
+    for (let i = 0; i < n; i++) {
+        res.push(function () {
+            return i;
+        });
+    }
+    return res;
+}
+// 5. про наслідування https://www.codewars.com/kata/fun-with-es6-classes-number-2-animals-and-inheritance/train/javascript
+class Shark extends Animal {
+    constructor(name, age, status) {
+        super(name, age, 0, "shark", status);
+    }
 }
 
-const max=function(list) {
-    return Math.max(...list);
-}
-//https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
-function min(arr, toReturn) {
-    if (toReturn === 'value') {
-        return Math.min(...arr);
+class Cat extends Animal {
+    constructor(name, age, status) {
+        super(name, age, 4, "cat", status);
     }
-    return arr.indexOf(Math.min(...arr));
-}
-//https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
-function warnTheSheep(queue) {
-    if (queue[queue.length - 1] === 'wolf') {
-        return "Pls go away and stop eating my sheep";
-    }
-    for (let i = 0; i < queue.length; i++) {
-        if (queue[i] === 'wolf') {
-            const number = queue.length - i - 1;
-            return "Oi! Sheep number " + number + "! You are about to be eaten by a wolf!"
-        }
+    introduce() {
+        return super.introduce() + "  Meow meow!";
     }
 }
-//https://www.codewars.com/kata/beginner-lost-without-a-map
-function maps(x) {
-    return x.map(value => value * 2);
-}
-//https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
-function firstNonConsecutive(arr) {
-    for (let i = 1; i < arr.length; ++i) {
-        if (arr[i] > arr[i - 1] + 1) {
-            return arr[i];
-        }
+
+class Dog extends Animal {
+    constructor(name, age, status, master) {
+        super(name, age, 4, "dog", status);
+        this.master = master;
     }
-    return null;
+    greetMaster() {
+        return "Hello " + this.master;
+    }
 }
