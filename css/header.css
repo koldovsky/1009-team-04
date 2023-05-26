@@ -11,11 +11,6 @@
   background-repeat: no-repeat;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
 .header {
 image:url("images/cigarets-na.png");
   width:177px;
