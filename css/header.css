@@ -12,4 +12,8 @@ image:url("images/cigarets-na.png");
   top: 0;
   left: 0;
 }
+<div class="header">
+  <img src=".../images/header-background.png" alt="Background Image">
+  <img class="header-inside-image" src=".../images/cigarets-na.png" alt="Overlay Image">
+</div>
 </style>
