@@ -11,9 +11,12 @@
   position: absolute;
   width: 50%;
   height: auto;
+  top: 0;
+  left: 0;
 }
+</style>
  <div class="header">
   <img src="images/header-background.png" alt="title-logo">
   <img class="header__cigars-logo" src="images/cigarets-na.png" alt="cigarets">
  </div>
-</style>
+
