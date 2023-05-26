@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-image: url("header-background.png");
+  background-image: url("images/header-background.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -17,7 +17,7 @@
 }
 
 .header {
-image:url("cigarets-na.png");
+image:url("images/cigarets-na.png");
   width:177px;
   height:auto;
 }
