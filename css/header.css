@@ -13,6 +13,6 @@ image: url("../images/cigarets-na.png");
 }
 <div class="header">
   <img src=".../images/header-background.png" alt="title-logo">
-  <img class="header__cigars-logo" src="../images/cigarets-na.png" alt="cigarets">
+  <img src="../images/cigarets-na.png" alt="cigarets">
 </div>
 </style>
