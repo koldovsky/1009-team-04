@@ -1,6 +1,6 @@
 <style>
 .header {
-  background-image: url("images/header-background.png");
+  background-image: url("../images/header-background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,13 +8,13 @@
 }
 
 .header__cigars-logo {
-image: url("images/cigarets-na.png");
+image: url("../images/cigarets-na.png");
   position: absolute;
   width: 50%;
   height: auto;
 }
 <div class="header">
   <img src="images/header-background.png" alt="title-logo">
-  <img class="header__cigars-logo" src="images/cigarets-na.png" alt="cigarets">
+  <img class="header__cigars-logo" src="../images/cigarets-na.png" alt="cigarets">
 </div>
 </style>
