@@ -1,12 +1,12 @@
 <style>
-.header {
+.image-container {
   background-image: url("images/header-background.png");
   background-size: cover;
   background-position: relative;
   background-repeat: no-repeat;
 }
 
-.header-inside-image {
+.overlay-image {
 image:url("images/cigarets-na.png");
   position: absolute;
   top: 0;
