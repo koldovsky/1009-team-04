@@ -1,130 +1,121 @@
-.title-selection {
-    margin-bottom: 40px;
-    font-size: 40px;
-    line-height: 64px;
-    letter-spacing: 0.6px;
+.history__container {
+	padding-top: 100px;
+	max-width: 1200px;
+	padding: 0 24px;
+	margin: auto;
+
+}
+.history {
+	background-color: var(--color-for-background-about-havana);
+}
+
+.history__information {
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+}
+
+.history__information {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.history__title-decoration {
+	width: 250px;
+	margin: auto;
+}
+
+.history__of-date {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.history__big-title {
+	/* margin-bottom: 40px; */
+	font-size: 40px;
+	line-height: 64px;
+	letter-spacing: 0.6px;
 	text-align: center;
 	color: var(--color-for-background-restriction);
 	font-family: var(--primary-font-family);
-    scroll-behavior: smooth;
-    }
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    }
-	
-#sigara-section {
-    background-color: var(--color-for-background-about-havana);
-	padding-bottom: 120px;
-	}
+}
 
 
-
-.services-section__title {
-	margin-bottom: 66px;
-	text-align: center;
-	}
-
-.services-wrap {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 24px;	
+.history__of-date {
+	/* display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 15px;	
 	font-family: var(--primary-font-family);
     scroll-behavior: smooth;
-	margin-bottom: 50px;
-	margin-left: 25px;
-	margin-right: 25px;
-	}
+	margin: 0 auto;
+	max-width: 1000px; */
+}
 
-.services__img {
-	margin-right: 24px;
-    width: 390px;
-	}
-
-.services-title {
+.history__title__four-date {
 	text-align: center;
 	margin-bottom: 16px;
 	font-size: 24px;
 	line-height: 32px;
 	color: var(--color-for-background-restriction);
-	}
+	letter-spacing: 0.6px;
+}
 
-.services-text {
+.history__about-date__four-date {
 	font-size: 20px;
 	text-align: center;
 	line-height: 28px;
 	color: var(--color-for-text-restriction);
-	opacity: 0.7;
-	color: var(--color-for-text-restriction);
-	}
+	letter-spacing: 0.6px;
+}
 
-.title__decoration {
-    width: 620px;
-	margin-top: -50px;
-	margin-left: 680px;
-	}
 
-.services-section__about {
-	color: var( --color-for-background-restriction);
+.history__about-their {
+	color: var(--color-for-background-restriction);
 	padding-top: 50px;
 	padding-bottom: 50px;
 	text-align: center;
 	font-family: var(--primary-font-family);
-    scroll-behavior: smooth;
 	font-size: 28px;
-	}
+	letter-spacing: 0.6px;
+}
 
-.services-section__button {
+.history__button__four-date {
+	min-width: 150px;
 	text-decoration: none;
 	color: var(--color-for-text-restriction);
 	border: 2px solid var(--color-for-text-restriction);
-	margin-left: 700px;
+	margin-left: 40%;
+	margin-right: 40%;
+	/* padding-bottom: -60px; */
 	padding: 12px 24px;
-    font-weight: 600;
+	font-weight: 600;
 	font-family: var(--primary-font-family);
-	
-	}
-
-.services-section__button:hover {
-	background-color: var(--color-for-text-restriction);
-	color: var(--color-for-background-about-havana);
-	font-family: var(--primary-font-family);
-    scroll-behavior: smooth;
-	}
-
-@media screen and  (max-width: 576px) {
-	.services-wrap {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: 24px;	
-		font-family: var(--primary-font-family);
-		scroll-behavior: smooth;
-		margin-bottom: 50px;
-		}
-	
-	.services__img {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	
-	.services-title {
-		text-align: center;
-	}
-
-	.services-text {
-		text-align: center;
-	}
-
-	.services-section__button{
-		margin-left: 170px;
-	}
-	
-	.services-section__about{
-		margin-right: 10px;
-		margin-left: 10px;
-	}
-
 
 }
 
+.history__button__four-date:hover {
+	background-color: var(--color-for-text-restriction);
+	color: var(--color-for-background-about-havana);
+	font-family: var(--primary-font-family);
+}
+
+
+
+@media (min-width: 700px) {
+	.history__of-date {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		text-align: center;
+		align-items: center;
+		gap: 30px;
+	}
+}

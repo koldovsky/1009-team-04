@@ -68,6 +68,11 @@
     margin-top: 30px;
 }
 
+.contacts__map  iframe {
+    width: 100%;
+    height: 250px;
+}
+
 .contacts__request {
     margin-top: 50px;
 }
