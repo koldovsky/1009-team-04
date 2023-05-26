@@ -2,8 +2,9 @@
 .header {
   background-image: url("images/header-background.png");
   background-size: cover;
-  background-position: relative;
+  background-position: center;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .header__cigars-logo {
