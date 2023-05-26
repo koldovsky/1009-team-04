@@ -6,22 +6,38 @@
     box-sizing: border-box;
 }
 
+.brand-info-about-tobacco {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+    padding: 50px;
+    font-weight: 400;
+}
+
+
 .brand-info-about-tobacco__title {
     font-family: var(--primary-font-family);
     font-size: 34px;
+    font-weight: 700;
     color: var(--color-titles);
-    letter-spacing: 1.02px;
+    letter-spacing: 1.38px;
     text-align: center;
+    line-height: 52px;
 }
 
 .brand-info-about-tobacco__arrow {
     margin-top: 25px;
     box-sizing: border-box;
-    width: 347px;
+    border-image-repeat: stretch;
+    width: 272px;
     height: 32px;
     margin: auto;
     overflow-clip-margin: content-box;
     overflow: clip;
+    object-fit: contain;
+    object-position: 50% 50%;
+
 }
 
 .brand-info-about-tobacco__text {
@@ -39,7 +55,6 @@
     background-color: var(--color-for-background-good-cigars-brown);
     background-origin: padding-box;
     padding: 33px 47px;
-
 }
 
 .cigars-production__picture {
