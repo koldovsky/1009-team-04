@@ -2,7 +2,7 @@
 .header {
   background-image: url("images/header-background.png");
   background-size: cover;
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
 }
 
