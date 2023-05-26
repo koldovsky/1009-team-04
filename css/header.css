@@ -1,13 +1,13 @@
 <style>
-.image-container {
-  background-image: url("images/header-background.png");
+.header {
+  background-image: url("../images/header-background.png");
   background-size: cover;
   background-position: relative;
   background-repeat: no-repeat;
 }
 
-.overlay-image {
-image:url("images/cigarets-na.png");
+.header__cigars-logo {
+image: url("images/cigarets-na.png");
   position: absolute;
   top: 0;
   left: 0;
