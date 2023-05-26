@@ -1,13 +1,13 @@
 <style>
 .header {
-  background-image: url("../images/header-background.png");
+  background-image: url("images/header-background.png");
   background-size: cover;
   background-position: relative;
   background-repeat: no-repeat;
 }
 
 .header__cigars-logo {
-image: url("../images/cigarets-na.png");
+image: url("images/cigarets-na.png");
   width: 50%;
   height: auto;
 }
