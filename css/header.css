@@ -8,7 +8,7 @@
 }
 
 .header__cigars-logo {
-image: url("../images/cigarets-na.png");
+ url("../images/cigarets-na.png");
   position: absolute;
   width: 50%;
   height: auto;
