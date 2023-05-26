@@ -12,7 +12,7 @@ image: url("images/cigarets-na.png");
   height: auto;
 }
 <div class="header">
-  <img src=".../images/header-background.png" alt="title-logo">
+  <img src="../images/header-background.png" alt="title-logo">
   <img class="header__cigars-logo" src="../images/cigarets-na.png" alt="cigarets">
 </div>
 </style>
