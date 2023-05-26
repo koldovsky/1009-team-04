@@ -8,8 +8,8 @@
 
 .header__cigars-logo {
 image: url("../images/cigarets-na.png");
-  width: 30px;
-  height: 40px;
+  width: 50%;
+  height: auto;
 }
 <div class="header">
   <img src=".../images/header-background.png" alt="title-logo">
