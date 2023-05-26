@@ -3,77 +3,116 @@
     background-size: cover;
     background-position: 50% 50%;
     padding: 90px 0px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
+
+.brand-info-about-tobacco {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: baseline;
+    padding: 50px;
+    font-weight: 400;
+}
+
 
 .brand-info-about-tobacco__title {
     font-family: var(--primary-font-family);
     font-size: 34px;
+    font-weight: 700;
     color: var(--color-titles);
-    letter-spacing:1.02px;
+    letter-spacing: 1.38px;
     text-align: center;
+    line-height: 52px;
 }
 
 .brand-info-about-tobacco__arrow {
     margin-top: 25px;
+    box-sizing: border-box;
+    border-image-repeat: stretch;
+    width: 272px;
+    height: 32px;
+    margin: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    object-fit: contain;
+    object-position: 50% 50%;
+
 }
 
 .brand-info-about-tobacco__text {
     font-family: var(--secondary-font-family);
     font-size: 19px;
     color: var(--color-text-info);
-    text-align:center;
+    text-align: center;
     line-height: 25.5px;
     margin-top: 20px;
     box-sizing: border-box;
 }
-.cigars-production{
+
+.cigars-production {
     background-clip: border-box;
     background-color: var(--color-for-background-good-cigars-brown);
     background-origin: padding-box;
+    padding: 33px 47px;
 }
-.cigars-production__picture{
+
+.cigars-production__picture {
+    width: 480px;
+    height: 300px;
     box-sizing: border-box;
     object-fit: cover;
     overflow-clip-margin: content-box;
+    margin: auto;
 }
 
-.cigars-production__title{
+.cigars-production__title {
     font-family: var(--primary-font-family);
     font-size: 22px;
     color: var(--color-titles);
-    text-align:left;
+    text-align: left;
 }
 
-.cigars-production__text{
+.cigars-production__text {
     font-family: var(--secondary-font-family);
     font-size: 17px;
     color: var(--color-link-text);
-    text-align:left;
+    text-align: left;
     line-height: 25.5px;
     margin-top: 20px;
     box-sizing: border-box;
 }
 
-.quality_of_production__title{
+.quality_of_production__title {
     font-family: var(--primary-font-family);
     font-size: 22px;
     color: var(--color-titles);
-    text-align:left;
+    text-align: left;
 }
 
-.quality_of_production__text{
+.quality_of_production__text {
     font-family: var(--secondary-font-family);
     font-size: 17px;
     color: var(--color-link-text);
-    text-align:left;
+    font-stretch: 100%;
+    text-align: left;
     line-height: 25.5px;
     margin-top: 20px;
     box-sizing: border-box;
 }
 
-.quality_of_production{
+.quality_of_production {
     background-clip: border-box;
     background-color: var(--color-for-background-good-cigars-green);
     background-origin: padding-box;
+    padding: 33px 47px;
+}
+
+.quality_of_production__picture {
+    width: 480px;
+    height: 300px;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    margin: auto;
 }

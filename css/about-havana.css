@@ -1,73 +1,55 @@
-.info__title {
-
-    color: var(--color-for-text-title);
-    font-size: 24px;
-    width: 233, 14px;
-    height: 61, 33px;
-    padding-bottom: 12px;
-    letter-spacing: 1, 38px;
-    line-height: 52, 578;
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-size: 46px;
-    font-family: "BenchNine", sans-serif;
-}
-
-.info {
+.about {
+    display: flex;
+    flex-direction: column;
     background-color: black;
-    padding: 65px;
+    padding: 20px;
+    font-size: 20px;
 }
-
-.info__about-company p {
-    color: var(--color-for-text-paragraph);
-    font-family: Roboto, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
-}
-
-.info__about-company {
-    color: var(--color-for-text-title);
-    font-size: 25px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
 
 .green__leaves {
 
     width: 570px;
     height: 485, 98px;
+    overflow: auto; 
+
 
 }
 
 
-.info__decor {
-
-    width: 120px;
-    margin-right: 535px;
-    text-decoration: none;
-    padding-bottom: 20px;
-
-}
-
-.info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-
-.info__info-text {
+.about__title {
     color: var(--color-for-text-title);
+    padding: 10px;
 
 }
 
-.info__section-shops {
-    padding-bottom: 20px;
+.about__decor {
+
+    width: 60px;
+    padding: 10px;
+    width: 150px;
 }
 
-.buttons {
-    padding-top: 20px;
+
+.about__info-text {
+
+    color: var(--color-for-text-title);
+    padding: 10px;
+
+}
+
+.about__section-shops {
+    color: var(--color-for-text-paragraph);
+    padding: 10px;
+    font-size: 19px;
+}
+
+.about__social-media {
+
+    padding: 20px;
+}
+
+.buttons__contact-btn:hover {
+    text-transform: uppercase;
 }
 
 .buttons__contact-btn {
@@ -75,28 +57,35 @@
     text-decoration: none;
     color: white;
     background-color: rgb(197, 163, 92);
-    padding: 10px 10px;
-    margin-right: 10px;
-    font-weight: 600;
-    ;
+    padding: 10px;
 }
 
 .buttons__learn-btn {
     text-decoration: none;
     color: white;
     background: none;
-    padding: 10px 10px;
-    font-weight: 600;
-    border: 1px solid white;
-
+    border: 2px solid white;
+    padding: 10px;
 }
 
 .buttons__contact-btn:hover {
     background-color: gray;
-
+    text-transform: uppercase;
 }
 
 .buttons__learn-btn:hover {
     color: black;
     background-color: white;
+    text-transform: uppercase;
+}
+
+@media (min-width: 700px) {
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        align-items: left;
+        gap: 30px;
+    }
 }
