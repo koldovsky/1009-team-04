@@ -11,6 +11,7 @@ image: url("images/cigarets-na.png");
   position: absolute;
   top: 0;
   left: 0;
+  padding: 30px 24px;
 }
 <div class="header">
   <img src=".../images/header-background.png" alt="title-logo">
