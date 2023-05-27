@@ -42,8 +42,9 @@
 }
 
 .brand__info img {
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  margin: auto;
+  padding: 20px;
 }
 
 .brand {
@@ -71,4 +72,23 @@
     flex-direction: column;
     align-items: flex-start;
   }
+}
+
+.go-up-button{
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px 15px;
+  display: none;
+}
+
+.go-up-button img{
+  height: 50px;
+  width: 50px;
+}
+
+.go-up-button--show{
+  display: block;
 }
