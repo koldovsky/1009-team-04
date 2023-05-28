@@ -28,7 +28,7 @@
 .gallery__text {
     color: var(--color-text-info);
     font-family: var(--secondary-font-family);
-    margin: 20px 150px;
+    margin: 20px;
     text-align: center;
 }
 
