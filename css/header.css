@@ -6,6 +6,16 @@
   background-repeat: no-repeat;
   position: relative;
 }
+ .button-container {
+  display: flex;
+  justify-content: center; 
+  position: absolute;
+  }
+  .button-container button {
+  background-color: orange;
+  color: white;
+  border: none;
+  }
 
 .header__cigars-logo {
     z-index: 1;
@@ -31,16 +41,6 @@
   font-size: 16px;
   font-weight: bold;
   color: white;
-  }
-  .button-container {
-  display: flex;
-  justify-content: center; 
-  position: absolute;
-  }
-  .button-container button {
-  background-color: orange;
-  color: white;
-  border: none;
   }
 </style>
 
