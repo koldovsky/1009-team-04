@@ -26,22 +26,21 @@
   height: auto;
 }
   .header__menu {
-    position: absolute;
-    font-family: Roboto;
-     font-size: 16px;
+  position: absolute;
+  font-family: Roboto;
+  font-size: 16px;
   font-weight: bold;
-    color: white;
+  color: white;
   }
   .button-container {
   display: flex;
   justify-content: center; 
+  position: absolute;
   }
   .button-container button {
   background-color: orange;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
   }
 </style>
 
