@@ -31,7 +31,7 @@
   font-size: 25px;
 }
 
-.brand video {
+.brand__making-cigarettes video {
   width: 570px;
   height: 400px;
 }
@@ -72,7 +72,23 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .brand__making-cigarettes video {
+    width: 400px;
+    height: 400px;
+  }
 }
+
+@media (max-width: 400px) {
+  .brand__making-cigarettes video {
+    width: 250px;
+    height: 250px;
+  }
+  .brand__making-cigarettes{
+    padding: 5px;
+    margin: auto;
+  }
+}
+
 
 .go-up-button{
   position: fixed;
