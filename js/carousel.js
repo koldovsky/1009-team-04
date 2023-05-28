@@ -23,7 +23,6 @@ nextButton.addEventListener('click', () => {
 
 carouselItem.addEventListener('transitionend', () => {
     if (currentIndex === carouselItems.length - 1) {
-        carouselItem.style.transition = 'none';
         updateCarousel();
     }
 });

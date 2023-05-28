@@ -28,7 +28,7 @@
 .gallery__text {
     color: var(--color-text-info);
     font-family: var(--secondary-font-family);
-    margin-top: 20px;
+    margin: 20px 150px;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .carousel__items {
-    flex: 0 0 100%;
+    flex: 1 0 100%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -78,4 +78,16 @@
     width: 20px;
     height: 20px;
     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .carousel__items {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel__items {
+        flex: 0 0 33.33%;
+    }
 }
