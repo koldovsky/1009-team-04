@@ -9,12 +9,14 @@
  .button-container {
   display: flex;
   justify-content: center; 
-  position: absolute;
   }
   .button-container button {
   background-color: orange;
   color: white;
   border: none;
+  position: absolute;
+  padding: 10px 20px
+  font-size: 16px;
   }
 
 .header__cigars-logo {
