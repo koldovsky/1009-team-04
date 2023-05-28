@@ -13,11 +13,12 @@
   .button-container button {
   background-color: #c5a35c;
   border: 4px;
+  border-color: white;
   color: white;
   border: none;
   position: absolute;
-  padding: 20px 30px
-  font-size: 30px;
+  padding: 70px 90px
+  font-size: 100px;
   }
 
 .header__cigars-logo {
