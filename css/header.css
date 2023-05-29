@@ -6,24 +6,6 @@
   background-repeat: no-repeat;
   position: relative;
 }
- .my-button {
-  display: flex;
-  justify-content: center; 
-   position: relative;
-  }
-  .my-button button {
-  background-color: #c5a35c;
-  border: 4px;
-  border-color: white;
-  color: white;
-  border: none;
-  position: absolute;
-  padding: 300px 350px
-  font-size: 600px;
-    text-align: center;
-    font-family: roboto;
-     transform: translate(-50%, -50%);
-  }
 
 .header__cigars-logo {
   position: absolute;
@@ -48,6 +30,54 @@
   font-weight: bold;
   color: white;
   }
+  
+  .buttons:hover {
+    text-transform: uppercase;
+}
+
+.buttons__about-us {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(197, 163, 92);
+    padding: 10px;
+}
+
+.buttons__contact-us{
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.buttons__about-us:hover {
+    background-color: gray;
+    text-transform: uppercase;
+}
+
+.buttons__contact-us:hover {
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+}
+  
+  
+  
+  
+  
+ 
+
+
+  
+  
+  
+  
+  
+  
+
+
+
 </style>
 
 
