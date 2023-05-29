@@ -6,11 +6,11 @@
   background-repeat: no-repeat;
   position: relative;
 }
- .button-container {
+ .my-button {
   display: flex;
   justify-content: center; 
   }
-  .button button-box {
+  .my-button button {
   background-color: #c5a35c;
   border: 4px;
   border-color: white;
