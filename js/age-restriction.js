@@ -1,10 +1,5 @@
 const text = document.getElementById('age');
 
-const age = [
-    20,
-    25,
-    30
-]
 const color = [
     'red',
     'black',
