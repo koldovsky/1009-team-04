@@ -10,7 +10,7 @@
 
     width: 570px;
     height: 485, 98px;
-    overflow: auto; 
+    margin: auto;
 
 
 }
@@ -87,5 +87,6 @@
         text-align: left;
         align-items: left;
         gap: 30px;
+        
     }
 }
