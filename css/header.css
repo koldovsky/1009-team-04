@@ -31,7 +31,7 @@
   color: white;
   }
   
-  .buttons {
+  .header__buttons-about-info {
   background-color: #C5A35C;
   border: 10px;
   color: white;
@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 
-.buttons:hover {
+.header__about-us:hover {
   background-color: #C5A35C;
 }
 </style>
