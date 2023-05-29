@@ -1,5 +1,5 @@
 document.addEventListener("partialsLoaded", () => {
   import('./go-up-button.js');
-  import('./carousel.js');
+  import('./gallery-carousel.js');
   import('./age-restriction.js');
 });
