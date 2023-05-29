@@ -43,11 +43,15 @@
   border-radius: 5px;
   transition-duration: 0.4s;
   cursor: pointer;
+    transform: translate(-50%, -50%);
 }
 
 .header__about-us:hover {
-  background-color: #C5A35C;
+  background-color: none;
 }
+.header__contact-us {
+  background-color: #C5A35C;
+  }
 </style>
 
 
