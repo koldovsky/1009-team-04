@@ -31,36 +31,26 @@
   color: white;
   }
   
-  .buttons:hover {
-    text-transform: uppercase;
-}
-
-.buttons__about-us {
-
-    text-decoration: none;
+.button-container {
+  display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .buttons__about-us {
+    border: 4px;
+    border-color: white;
     color: white;
-    background-color: rgb(197, 163, 92);
-    padding: 10px;
-}
+      transform: translate(-50%, -50%);
+    font-family: roboto;
+  }
+  .buttons__contact-us {
+    border: 4px;
+    border-color: white;
+    background-color: #c5a35c;
+  }
 
-.buttons__contact-us{
-    text-decoration: none;
-    color: white;
-    background: none;
-    border: 2px solid white;
-    padding: 10px;
-}
 
-.buttons__about-us:hover {
-    background-color: gray;
-    text-transform: uppercase;
-}
-
-.buttons__contact-us:hover {
-    color: black;
-    background-color: white;
-    text-transform: uppercase;
-}
 
 </style>
 
