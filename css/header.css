@@ -9,6 +9,7 @@
  .my-button {
   display: flex;
   justify-content: center; 
+   position: relative;
   }
   .my-button button {
   background-color: #c5a35c;
@@ -17,8 +18,11 @@
   color: white;
   border: none;
   position: absolute;
-  padding: 100px 110px
-  font-size: 300px;
+  padding: 300px 350px
+  font-size: 600px;
+    text-align: center;
+    font-family: roboto;
+     transform: translate(-50%, -50%);
   }
 
 .header__cigars-logo {
