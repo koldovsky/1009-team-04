@@ -31,27 +31,23 @@
   color: white;
   }
   
-.button-container {
+  .buttons {
+  background-color: #C5A35C;
+  border: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
-  }
-  .buttons__about-us {
-    border: 4px;
-    border-color: white;
-    color: white;
-      transform: translate(-50%, -50%);
-    font-family: roboto;
-  }
-  .buttons__contact-us {
-    border: 4px;
-    border-color: white;
-    background-color: #c5a35c;
-  }
+  font-size: 16px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
 
-
-
+.buttons:hover {
+  background-color: #C5A35C;
+}
 </style>
 
 
