@@ -15,5 +15,5 @@ function trackScroll() {
 
 function goUp() {
     document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
