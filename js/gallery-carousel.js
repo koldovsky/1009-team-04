@@ -1,4 +1,4 @@
-const carousel = document.querySelector('.carousel');
+const carousel = document.querySelector('.gallery__carousel');
 const carouselItem = carousel.querySelector('.carousel__item');
 const prevButton = carousel.querySelector('.carousel__button--prev');
 const nextButton = carousel.querySelector('.carousel__button--next');
