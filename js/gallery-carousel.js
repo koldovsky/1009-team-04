@@ -1,13 +1,12 @@
-const carousel = document.querySelector('.carousel');
-const carouselItem = carousel.querySelector('.carousel__item');
+const carousel = document.querySelector('.gallery__carousel');
+const carouselItem = carousel.querySelector('.carousel__items');
 const prevButton = carousel.querySelector('.carousel__button--prev');
 const nextButton = carousel.querySelector('.carousel__button--next');
-const carouselItems = carouselItem.querySelectorAll('.carousel__items');
+const carouselItems = carouselItem.querySelectorAll('.carousel__item');
 
 let currentIndex = 0;
 
 function updateCarousel() {
-    carouselItem.style.transition = 'none'; 
     carouselItem.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
