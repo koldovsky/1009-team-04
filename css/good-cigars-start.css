@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 0px 24px;
 }
 
@@ -61,7 +61,6 @@
     object-fit: cover;
     overflow: clip;
     padding: 20px;
-    display: flex;
 }
 
 .cigars-production__title {
@@ -88,7 +87,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     padding: 0px 24px;
 }
 
@@ -120,6 +119,50 @@
     padding: 20px;
 }
 
+
+@media (min-width: 480px) {
+    .info-about__cigars-production {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+    }
+
+    .cigars-production__picture {
+        width: 338px;
+        height: 219px;
+        align-items: center;
+    }
+
+    .cigars-production__description {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 40px 60px;
+    }
+}
+
+@media (min-width: 480px) {
+    .info-about__quality-of-production {
+        display: flex;
+        flex-direction: column
+        flex-basis: 50%;
+    }
+
+    .quality-of-production__picture {
+        width: 338px;
+        height: 219px;
+        align-items: center;
+
+    }
+
+    .quality-of-production__description {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 40px 60px;
+    }
+}
+
 @media (min-width: 768px) {
     .info-about__cigars-production {
         display: flex;
@@ -136,8 +179,11 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        align-items: start;
+        align-items: flex-start;
         padding: 40px 60px;
+    }
+    .cigars-production__title{
+        font-size: 24px;
     }
 }
 
@@ -146,12 +192,13 @@
     .info-about__quality-of-production {
         display: flex;
         flex-direction: row;
+        flex-basis: 50%;
     }
 
     .quality-of-production__picture {
         width: 294px;
         height: 434px;
-        object-fit: cover;
+        align-items: flex-start;
 
     }
 
@@ -159,16 +206,19 @@
         display: flex;
         flex-direction: column;
         text-align: left;
-        align-items: end;
-        line-height: 25.5px;
         padding: 40px 60px;
     }
+
+    .quality-of-production__title{
+        font-size: 24px;
+    }
 }
-/*
-@media (max-width: 1200px) {
+
+@media (min-width: 900px) {
     .info-about__cigars-production {
         display: flex;
         flex-direction: row;
+        flex-basis: 50%;
     }
 
     .cigars-production__picture {
@@ -180,8 +230,17 @@
         display: flex;
         flex-direction: row;
     }
+
     .quality-of-production__picture {
         width: 480px;
         height: 300px;
     }
-}*/
+
+    .cigars-production__title{
+        font-size: 24px;
+    }
+
+    .quality-of-production__title{
+        font-size: 24px;
+    }
+}
