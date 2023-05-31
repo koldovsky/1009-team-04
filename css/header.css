@@ -33,13 +33,11 @@
   }
   
   .header__buttons-about-info {
-  background-color: #C5A35C;
   border: 10px;
   font-family: Roboto;
   color: white;
   padding: 10px 20px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
@@ -48,11 +46,22 @@
 
 .header__about-us:hover {
    background-color: transparent ;
-   position: absolute;
+  display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 .header__contact-us {
-  background-color: #C5A35C;
-   position: absolute;
+    background-color: #C5A35C;
+    position: absolute;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background-position: 50%;
+    overflow: visible;
+    cursor: pointer;
   }
 </style>
 
