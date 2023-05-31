@@ -47,7 +47,7 @@
 }
 
 .header__about-us:hover {
-  background-color: none;
+   background-color: transparent ;
    position: absolute;
 }
 .header__contact-us {
