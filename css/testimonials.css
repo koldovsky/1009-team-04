@@ -6,14 +6,20 @@
     display: block;
 }
 
+.testimonials__description{
+    text-align: center;
+    align-items: center;
+    margin: -50px -15px 0px;
+}
+
 .description__title {
     font-family: var(--primary-font-family);
     font-size: 34px;
+    font-weight: 700;
     color: var(--color-titles);
-    box-sizing: border-box;
+    letter-spacing: 1.38px;
     text-align: center;
-    line-height: 38.862 px;
-    letter-spacing: 1.02px;
+    line-height: 52px;
 }
 
 
@@ -27,9 +33,59 @@
 .description__text-content {
     font-family: var(--secondary-font-family);
     font-size: 19px;
+    font-weight: 400;
     color: var(--color-text-info);
     box-sizing: border-box;
     text-align: center;
     line-height: 28.5px;
     letter-spacing: normal;
+}
+
+.partners-feedback_cards{
+    background-color: var(--color-for-background-testimonials__partners-feedback);
+    background-origin: padding-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.card-1_partner-name{
+    font-family: var(--primary-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-titles);
+    letter-spacing: normal;
+    line-height: 34.5px;
+}
+
+.card-1_partner-position{
+    font-family: var(--color-text-info);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text-info);
+    letter-spacing: normal;
+    line-height: 20px;
+}
+
+.card-1_feedback-text{
+    font-family: var(--secondary-font-family);
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--color-link-text);
+    letter-spacing: normal;
+    line-height: 25.5px;
+    padding: 15px 0px;
+}
+
+.card-1_feedback-date{
+    font-family: var(--secondary-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text-info);
+    letter-spacing: normal;
+    line-height: 20px;
 }
