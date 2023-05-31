@@ -42,10 +42,11 @@
 .carousel__items {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    height: 250px;
 }
 
 .carousel__item {
-    flex: 1 0 100%;
+    flex: 0 0 100%;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -90,4 +91,22 @@
     .carousel__item {
         flex: 0 0 33.33%;
     }
+}
+
+.carousel__dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carousel__dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.carousel__dot.active {
+    background-color: #fff;
 }
