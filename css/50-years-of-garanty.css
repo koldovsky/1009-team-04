@@ -10,8 +10,6 @@
 .info__text {
   color: var(--color-text-info);
   font-family: var(--secondary-font-family);
-  height: 57px;
-  width: 584px;
   margin: auto;
   margin-top: 10px;
   font-size: 19px;
@@ -59,7 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 50px 30px 50px;
+  padding: 0 50px 30px 50px;
 }
 
 .making-cigarettes__info{
@@ -67,11 +65,15 @@
   margin-left: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1010px) {
   .brand__making-cigarettes {
     flex-direction: column;
-    align-items: flex-start;
   }
+
+  .making-cigarettes__text {
+    font-size: 16px;
+  }
+
   .brand__making-cigarettes video {
     width: 400px;
     height: 400px;
