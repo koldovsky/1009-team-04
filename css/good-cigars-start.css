@@ -29,6 +29,7 @@
 
 .brand-info-about-tobacco__arrow {
     width: 250px;
+    object-fit: contain;
     margin: auto;
     padding: 20px;
 }
