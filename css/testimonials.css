@@ -1,0 +1,35 @@
+.testimonials {
+    background-color: var(--color-for-background-testimonials);
+    background-size: cover;
+    padding: 90px 0px;
+    position: relative;
+    display: block;
+}
+
+.description__title {
+    font-family: var(--primary-font-family);
+    font-size: 34px;
+    color: var(--color-titles);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 38.862 px;
+    letter-spacing: 1.02px;
+}
+
+
+.description__arrow {
+    width: 250px;
+    object-fit: contain;
+    margin: auto;
+    padding: 20px;
+}
+
+.description__text-content {
+    font-family: var(--secondary-font-family);
+    font-size: 19px;
+    color: var(--color-text-info);
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 28.5px;
+    letter-spacing: normal;
+}
