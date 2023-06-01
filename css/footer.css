@@ -59,6 +59,7 @@
     align-items: center;
     padding: 15px 0px;
     color: var(--color-footer-info);
+    font-size: 14px;
 }
 
 .footer__copyright {
