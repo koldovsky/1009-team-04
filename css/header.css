@@ -18,19 +18,26 @@
   .havana__photo {
     background-image: url("images/havana1.png");
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 10%;
   transform: translate(-10%, -90%);
-  max-width: 20%;
+  max-width: 10%;
   height: auto;
 }
   .container_list {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   }
   .header__menu {
+  list-style-type: none;
   position: absolute;
+  display: flex;
   top:0;
   right:0;
+  margin: 0;
+  padding: 0;
   color: white;
   background-color: transparent;
   font-family: Roboto;
