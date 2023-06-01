@@ -15,8 +15,8 @@
   width: 60%;
   height: auto;
   
-  .header__havana1 {
-    background-image: url("images/arrow.png");
+  .header__logo {
+    background-image: url("images/havana1.png");
   position: absolute;
   top: 30%;
   left: 10%;
