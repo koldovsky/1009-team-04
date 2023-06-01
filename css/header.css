@@ -33,7 +33,7 @@
 :root {
   --color-link-text: white;
 }
-  .header__menu-link {
+  .header__menu {
   list-style-type: none;
   display: inline;
   position: absolute;
