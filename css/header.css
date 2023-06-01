@@ -17,7 +17,7 @@
   height: auto;
   z-index: 2;
   
-  .header__logo {
+  .havana__photo {
     background-image: url("images/havana1.png");
     z-index: 3;
   position: absolute;
