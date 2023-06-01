@@ -26,12 +26,10 @@
 
 
 .description__arrow {
-    padding-top: 25px;
-    width: 100px;
-    height: 25px;
-    margin: auto;
+    width: 250px;
     object-fit: contain;
-    overflow-clip-margin: content-box;
+    margin: auto;
+    padding: 20px;
 }
 
 .description__arrow img {
@@ -111,6 +109,10 @@
     cursor: pointer;
 }
 
+.testimonials__carousel button :hover {
+    background-color: var(--color-titles);
+}
+
 .carousel__button--prev {
     left: 1px;
 }
@@ -126,13 +128,13 @@
 }
 
 @media (min-width: 768px) {
-    .carousel__feedback-card {
-        flex: 0 0 50%;
+    .carousel__feedback-cards {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 992px) {
     .carousel__feedback-card {
-        flex: 0 0 33.33%;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
