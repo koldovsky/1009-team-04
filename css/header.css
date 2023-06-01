@@ -16,6 +16,7 @@
   height: auto;
   
   .header__havana1 {
+    background-image: url("images/arrow.png");
   position: absolute;
   top: 30%;
   left: 10%;
