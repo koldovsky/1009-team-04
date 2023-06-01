@@ -85,11 +85,19 @@
     .carousel__item {
         flex: 0 0 50%;
     }
+
+    .gallery__tittle {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 992px) {
     .carousel__item {
         flex: 0 0 33.33%;
+    }
+
+    .gallery__tittle {
+        font-size: 46px;
     }
 }
 
