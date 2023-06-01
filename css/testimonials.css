@@ -1,7 +1,7 @@
 .testimonials {
     background-color: var(--color-for-background-testimonials);
     background-size: cover;
-    padding: 90px 0px;
+    padding: 90px 15px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,8 @@
     width: 100px;
     height: 25px;
     margin: auto;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
 }
 
 .description__arrow img {
