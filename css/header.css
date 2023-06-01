@@ -26,13 +26,15 @@
 }
   .container_list {
   position: relative;
-  background-size: cover;
   }
   .header__menu {
   position: absolute;
-  font-family: Roboto;
+  top:0;
+  right:0;
   color: white;
-  font-size: 16px;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 20px;
   font-weight: bold;
 
   }
