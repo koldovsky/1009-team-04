@@ -23,6 +23,11 @@
   max-width: 100%;
   height: auto;
 }
+  .container_list {
+  position: relative;
+  background-image: url("images/header-background.png");
+  background-size: cover;
+  }
   .header__menu {
   position: absolute;
   font-family: Roboto;
