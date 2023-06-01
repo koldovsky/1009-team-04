@@ -18,9 +18,9 @@
   .havana__photo {
     background-image: url("images/havana1.png");
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 10%;
-  transform: translate(-20%, -80%);
+  transform: translate(-10%, -90%);
   max-width: 20%;
   height: auto;
 }
