@@ -1,8 +1,8 @@
 const carousel = document.querySelector('.testimonials__carousel');
-const carouselItem = carousel.querySelector('.carousel__feedback-card');
+const carouselItem = carousel.querySelector('.carousel__feedback-list');
 const prevButton = carousel.querySelector('.carousel__button--prev');
 const nextButton = carousel.querySelector('.carousel__button--next');
-const carouselItems = carouselItem.querySelectorAll('.carousel__feedback-list');
+const carouselItems = carouselItem.querySelectorAll('.carousel__feedback-card');
 
 let currentIndex = 0;
 
