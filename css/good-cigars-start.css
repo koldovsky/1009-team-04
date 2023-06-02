@@ -6,6 +6,7 @@
     padding-top: 90px;
     padding-bottom: 90px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .brand-info-about-tobacco {
@@ -62,7 +63,6 @@
     object-fit: cover;
     overflow: clip;
     padding: 20px;
-    overflow: hidden;
 }
 
 .cigars-production__title {
@@ -119,7 +119,6 @@
     object-fit: cover;
     overflow-clip-margin: content-box;
     padding: 20px;
-    overflow: hidden;
 }
 
 
