@@ -158,7 +158,7 @@
 }
 
 @media (min-width: 1200px) {
-    
+
     .carousel__feedback-list {
         grid-template-columns: repeat(4, 1fr);
     }
