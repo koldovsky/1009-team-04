@@ -2,9 +2,6 @@
     background-color: var(--color-for-background-testimonials);
     background-size: cover;
     padding: 90px 15px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
 
 }
 
@@ -49,6 +46,7 @@
     letter-spacing: normal;
     padding: 20px;
 }
+
 
 .carousel__feedback-card {
     background-color: var(--color-for-background-testimonials__partners-feedback);
@@ -99,7 +97,7 @@
     line-height: 20px;
 }
 
-.carousel__button {
+.carousel__buttons {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -109,7 +107,7 @@
     cursor: pointer;
 }
 
-.testimonials__carousel button :hover {
+.testimonials .carousel__buttons :hover {
     background-color: var(--color-titles);
 }
 
@@ -121,20 +119,31 @@
     right: 1px;
 }
 
-.carousel__button img {
+.carousel__buttons img {
     width: 20px;
     height: 20px;
     object-fit: cover;
 }
 
 @media (min-width: 768px) {
-    .carousel__feedback-cards {
+    .carousel__feedback-list {
+        display: grid;
+        gap: 10px;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 992px) {
-    .carousel__feedback-card {
-        grid-template-columns: 1fr 1fr 1fr;
+    .carousel__feedback-list {
+        display: flex;
+        gap: 10px;
+        grid-template-columns: repeat(3 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .carousel__feedback-list {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
