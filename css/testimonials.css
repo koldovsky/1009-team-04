@@ -22,7 +22,6 @@
     line-height: 52px;
 }
 
-
 .description__arrow {
     width: 250px;
     object-fit: contain;
@@ -48,11 +47,9 @@
     padding: 20px;
 }
 
-
 .carousel__feedback-card {
     background-color: var(--color-for-background-testimonials__partners-feedback);
     background-origin: padding-box;
-    background-attachment: scroll;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -112,7 +109,6 @@
     box-sizing: border-box;
 }
 
-
 .carousel__button {
     position: absolute;
     top: 50%;
@@ -151,15 +147,12 @@
 
 @media (min-width: 992px) {
     .carousel__feedback-list {
-        display: flex;
-        gap: 10px;
-        grid-template-columns: repeat(3 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (min-width: 1200px) {
-
     .carousel__feedback-list {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
