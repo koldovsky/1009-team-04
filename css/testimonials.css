@@ -9,6 +9,7 @@
     text-align: center;
     align-items: center;
     margin: -50px -15px 0px;
+    overflow: hidden;
 }
 
 .description__title {
@@ -51,6 +52,7 @@
 .carousel__feedback-card {
     background-color: var(--color-for-background-testimonials__partners-feedback);
     background-origin: padding-box;
+    background-attachment: scroll;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -96,6 +98,20 @@
     letter-spacing: normal;
     line-height: 20px;
 }
+
+.carousel__feedback-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 250px;
+    overflow: hidden;
+}
+
+.carousel__feedback-card {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 
 .carousel__button {
     position: absolute;
