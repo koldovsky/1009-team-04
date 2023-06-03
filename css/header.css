@@ -16,65 +16,122 @@
   height: auto;
 }
   .havana__photo {
-    background-image: url("images/havana1.png");
+   background-image: url("images/havana1.png");
   position: absolute;
   top: 15%;
-  left: 10%;
+  left: 5%;
   transform: translate(-10%, -90%);
-  max-width: 10%;
+  max-width: 15%;
   height: auto;
 }
-  .container_list {
-  position: relative;
-  display: inline;
+
+:root {
+  --header-menu-link: white;
+  --header-background-color: transparent;
+}
+  .header__container {
+  background-color: var(--header-background-color);  
+  color: var(--header-menu-link);
+  list-style-type: none;
+  display: flex;
   align-items: center;
   justify-content: flex-end;
-  }
-:root {
-  --color-link-text: white;
-}
-  .header__menu {
-  list-style-type: none;
-  display: inline;
+  margin-right: 20px;
   position: absolute;
   font-family: Roboto;
-  background-color: transparent;
   font-size: 16px;
   font-weight: bold;
   top:0;
   right:0;
   margin: 0;
   padding: 0;
+    z-index: 2;
 
   }
-  
-  .header__buttons-about-info {
-  border: 10px;
-  font-family: Roboto;
-  color: white;
-  padding: 10px 20px;
-  transform: translate(-50%, -50%);
+.header__menu-link {
+  background-color: var(--header-background-color);  
+  color: var(--header-menu-link);
+  text-decoration:none;
+}
+.header__menu-item {
+display:inline;  
+  padding: 10px;
+}
+.header__menu {
+   margin-top: 30px;
+}
+:root {
+  --button-background-color: transparent;
+  --button-text-color: white;
+}
+.button-rqaq {
+  background-color: var(--button-background-color);
+ color: var(--button-text-color);
+ text-decoration: none;
+ text-align: center;
+ padding: 10px 20px;
+ border: 2px solid var(--border-color);
+   border-radius: 0;
+   max-width: 60%;
+  height:auto;
+  margin-top:30px;
 }
 
-.header__about-us:hover {
-   background-color: transparent ;
-  display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
+:root {
+  --button-background-color: transparent;
+  --button-text-color: white;
+  --button-hover-background-color:  #C5A35C;
+  --border-color: white;
 }
+.header__about-us {
+ background-color: var(--button-background-color);
+ color: var(--button-text-color);
+ text-decoration: none;
+ text-align: center;
+ padding: 10px 20px;
+ border: 2px solid var(--border-color);
+ top: 95%;
+ left: 45%;
+ border-radius: 0;
+ font-size: 16px;
+ cursor: pointer;
+ transform: translate(-60%, -40%);
+ display: inline-block;
+ position: absolute;
+ max-width: 100%;
+ cursor: pointer;
+  margin: 10px;
+ z-index:2;
+}
+.header__about-us-info {
+ color: var(--button-text-color);
+   text-decoration:none;
+}
+
 .header__contact-us {
-    background-color: #C5A35C;
-    position: absolute;
-    display: inline-block;
-    position: relative;
-    max-width: 100%;
-    text-decoration: none;
-    text-align: center;
-    background-position: 50%;
-    overflow: visible;
-    cursor: pointer;
+ background-color: var(--button-hover-background-color);
+ color: var(--button-text-color);
+ padding: 10px 20px;
+ border: 0;
+ top: 95%;
+ left: 55%;
+ border-radius: 0;
+ font-size: 16px;
+ cursor: pointer;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ display: inline-block;
+ max-width: 100%;
+ text-decoration: none;
+ text-align: center;
+ cursor: pointer;
+  margin:10px;
+ z-index:2;
   }
+.header__contact-us-button {
+ color: var(--button-text-color);
+  text-decoration:none;
+}
 </style>
 
 
