@@ -97,6 +97,7 @@
 }
 .header__about-us-info {
  color: var(--button-text-color);
+   text-decoration:none;
 }
 
 .header__contact-us {
@@ -121,6 +122,7 @@
   }
 .header__contact-us-button {
  color: var(--button-text-color);
+  text-decoration:none;
 }
 </style>
 
