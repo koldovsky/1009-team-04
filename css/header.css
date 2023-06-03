@@ -34,7 +34,7 @@
   --header-menu-link: white;
   --header-background-color: transparent;
 }
-  .header__menu {
+  .header__container {
   background-color: var(--header-background-color);  
   color: var(--header-menu-link);
   list-style-type: decimal;
