@@ -95,6 +95,11 @@
   margin: 10px;
  z-index:2;
 }
+.header__about-us-info {
+ background-color: var(--button-background-color);
+ color: var(--button-text-color);
+}
+
 .header__contact-us {
  background-color: var(--button-hover-background-color);
  color: var(--button-text-color);
@@ -115,6 +120,10 @@
   margin:10px;
  z-index:2;
   }
+.header__contact-us-button {
+   background-color: var(--button-hover-background-color);
+ color: var(--button-text-color);
+}
 </style>
 
 
