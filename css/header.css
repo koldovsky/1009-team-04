@@ -57,19 +57,20 @@
   --border-color: white;
 }
 .header__about-us:hover {
-    background-color: var(--button-background-color);
-  color: var(--button-text-color);
-  padding: 10px 20px;
-  border: 2px solid var(--border-color);
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
-   background-color: transparent ;
-  display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
+ background-color: var(--button-background-color);
+ color: var(--button-text-color);
+ padding: 10px 20px;
+ border: 2px solid var(--border-color);
+ border-radius: 0;
+ font-size: 16px;
+ cursor: pointer;
+ transform: translate(-70%, -70%);
+ display: inline-block;
+ position: absolute;
+ max-width: 100%;
+ text-decoration: none;
+ text-align: center;
+ cursor: pointer;
 }
 .header__contact-us {
  background-color: var(--button-hover-background-color);
@@ -78,7 +79,7 @@
  border: 2px solid var(--border-color);
   top: 50%;
   left: 50%;
- border-radius: 5px;
+ border-radius: 0;
  font-size: 16px;
  cursor: pointer;
  transform: translate(-50%, -50%);
