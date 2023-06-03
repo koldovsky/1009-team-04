@@ -55,6 +55,8 @@
 }
 .header__menu-item {
 display:inline;  
+  padding: 10px;
+ margin-top: 20px;
 }
 :root {
   --button-background-color: transparent;
