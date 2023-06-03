@@ -73,6 +73,7 @@
  position: absolute;
  max-width: 100%;
  cursor: pointer;
+  margin: 10px;
  z-index:2;
 }
 .header__contact-us {
@@ -92,6 +93,7 @@
  text-decoration: none;
  text-align: center;
  cursor: pointer;
+  margin:10px;
  z-index:2;
   }
 </style>
