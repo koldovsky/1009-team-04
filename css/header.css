@@ -96,7 +96,6 @@
  z-index:2;
 }
 .header__about-us-info {
- background-color: var(--button-background-color);
  color: var(--button-text-color);
 }
 
@@ -121,7 +120,6 @@
  z-index:2;
   }
 .header__contact-us-button {
-   background-color: var(--button-hover-background-color);
  color: var(--button-text-color);
 }
 </style>
