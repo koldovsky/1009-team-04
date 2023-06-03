@@ -25,21 +25,22 @@
   height: auto;
 }
   .container_list {
-  position: relative;
+  position: absolute;
   display: inline;
   align-items: center;
   justify-content: flex-end;
   }
 :root {
-  --color-link-text: white;
+  --header-menu-link: white;
+  --header-background-color: transparent;
 }
   .header__menu {
-    color: var(--color-link-text);
+  background-color: var(--header-background-color);  
+  color: var(--header-menu-link);
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   position: absolute;
   font-family: Roboto;
-  background-color: transparent;
   font-size: 16px;
   font-weight: bold;
   top:0;
