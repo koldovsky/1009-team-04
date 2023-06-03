@@ -33,6 +33,10 @@
 :root {
   --color-link-text: white;
 }
+
+a {
+  color: var(--color-link-text);
+}
   .header__menu {
   list-style-type: none;
   display: inline;
