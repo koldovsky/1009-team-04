@@ -53,6 +53,9 @@
   color: var(--header-menu-link);
   text-decoration:none;
 }
+.header__menu-item {
+display:inline;  
+}
 :root {
   --button-background-color: transparent;
   --button-text-color: white;
