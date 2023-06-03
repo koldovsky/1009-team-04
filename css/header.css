@@ -60,8 +60,8 @@
  color: var(--button-text-color);
  padding: 10px 20px;
  border: 2px solid var(--border-color);
- top: 60%;
- left: 30%;
+ top: 90%;
+ left: 40%;
  border-radius: 0;
  font-size: 16px;
  cursor: pointer;
@@ -79,8 +79,8 @@
  color: var(--button-text-color);
  padding: 10px 20px;
  border: 2px solid var(--border-color);
- top: 80%;
- left: 30%;
+ top: 90%;
+ left: 50%;
  border-radius: 0;
  font-size: 16px;
  cursor: pointer;
