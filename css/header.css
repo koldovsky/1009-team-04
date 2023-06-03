@@ -51,6 +51,7 @@
 .header__menu-link {
   background-color: var(--header-background-color);  
   color: var(--header-menu-link);
+  text-decoration:none;
 }
 :root {
   --button-background-color: transparent;
