@@ -78,7 +78,7 @@
  background-color: var(--button-hover-background-color);
  color: var(--button-text-color);
  padding: 10px 20px;
- border: 2px solid var(--border-color);
+ border: 0;
  top: 90%;
  left: 50%;
  border-radius: 0;
