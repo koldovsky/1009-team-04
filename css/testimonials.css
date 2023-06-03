@@ -49,8 +49,7 @@
 
 .carousel__feedback-card {
     background-color: var(--color-for-background-testimonials__partners-feedback);
-    background-origin: padding-box;
-    box-sizing: border-box;
+   box-sizing: border-box;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -84,7 +83,7 @@
     color: var(--color-link-text);
     letter-spacing: normal;
     line-height: 25.5px;
-    padding: 15px 0px;
+    padding: 20px 0px;
 }
 
 .feedback-card__date {
@@ -112,14 +111,12 @@
 .carousel__button {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
+    background:none;
     border: none;
     font-size: 10px;
-    cursor: pointer;
 }
 
-.testimonials .carousel__button :hover {
+.carousel__button :hover {
     background-color: var(--color-titles);
 }
 

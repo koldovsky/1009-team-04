@@ -173,14 +173,14 @@
     .cigars-production__picture {
         width: 294px;
         height: 434px;
-        align-items: flex-end;
+        align-items: end;
     }
 
     .cigars-production__description {
         display: flex;
         flex-direction: column;
         text-align: left;
-        align-items: flex-start;
+        align-items: start;
         padding: 40px 60px;
     }
 
