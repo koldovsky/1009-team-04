@@ -48,6 +48,23 @@
     z-index: 2;
 
   }
+.header__menu-link {
+  background-color: var(--header-background-color);  
+  color: var(--header-menu-link);
+}
+:root {
+  --button-background-color: transparent;
+  --button-text-color: white;
+}
+.button-rqaq {
+  background-color: var(--button-background-color);
+ color: var(--button-text-color);
+ text-decoration: none;
+ text-align: center;
+ padding: 10px 20px;
+ border: 2px solid var(--border-color);
+   border-radius: 0;
+}
 
 :root {
   --button-background-color: transparent;
