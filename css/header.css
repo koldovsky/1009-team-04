@@ -24,12 +24,7 @@
   max-width: 10%;
   height: auto;
 }
-  .container_list {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  }
+
 :root {
   --header-menu-link: white;
   --header-background-color: transparent;
@@ -39,6 +34,8 @@
   color: var(--header-menu-link);
   list-style-type: none;
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
   margin-right: 20px;
   position: absolute;
   font-family: Roboto;
