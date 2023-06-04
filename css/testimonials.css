@@ -49,9 +49,11 @@
 
 .carousel__feedback-card {
     background-color: var(--color-for-background-testimonials__partners-feedback);
-   box-sizing: border-box;
+    background-origin: padding-box;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
     text-align: center;
     align-items: center;
     padding: 20px;
@@ -77,6 +79,8 @@
 }
 
 .feedback-card__text {
+    display: flex;
+    flex-direction: column;
     font-family: var(--secondary-font-family);
     font-size: 17px;
     font-weight: 400;
@@ -87,6 +91,8 @@
 }
 
 .feedback-card__date {
+    display: flex;
+    flex-direction: column;
     font-family: var(--secondary-font-family);
     font-size: 14px;
     font-weight: 400;
@@ -108,27 +114,29 @@
     box-sizing: border-box;
 }
 
-.carousel__button {
+.testimonials__carousel-button {
     position: absolute;
     top: 50%;
-    background:none;
+    transform: translate(-50%);
+    background: transparent;
     border: none;
     font-size: 10px;
+    cursor: pointer;
 }
 
-.carousel__button :hover {
+.testimonials__carousel-button :hover {
     background-color: var(--color-titles);
 }
 
-.carousel__button--prev {
+.button--left {
     left: 1px;
 }
 
-.carousel__button--next {
+.button--right {
     right: 1px;
 }
 
-.carousel__button img {
+.testimonials__carousel-button .testimonials-image {
     width: 20px;
     height: 20px;
     object-fit: cover;
