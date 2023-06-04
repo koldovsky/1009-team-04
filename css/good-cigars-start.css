@@ -49,6 +49,7 @@
     background-clip: border-box;
     background-color: var(--color-for-background-good-cigars-brown);
     background-origin: padding-box;
+    border-image-repeat: stretch;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,22 +173,20 @@
 
     .cigars-production__picture {
         display: flex;
-        align-items: end;
         width: 294px;
         height: 434px;
     }
-}
 
-.cigars-production__description {
-    align-items: start;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 40px 60px;
-}
+    .cigars-production__description {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 40px 60px;
+    }
 
-.cigars-production__title {
-    font-size: 24px;
+    .cigars-production__title {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 768px) {

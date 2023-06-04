@@ -47,6 +47,14 @@
     padding: 20px;
 }
 
+.testimonials__carousel {
+    position: relative;
+    top: 50%;
+    margin-top: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+
 .carousel__feedback-card {
     background-color: var(--color-for-background-testimonials__partners-feedback);
     background-origin: padding-box;
@@ -55,7 +63,6 @@
     flex-direction: column;
     padding-bottom: 20px;
     text-align: center;
-    align-items: center;
     padding: 20px;
 }
 
@@ -87,7 +94,7 @@
     color: var(--color-link-text);
     letter-spacing: normal;
     line-height: 25.5px;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .feedback-card__date {
@@ -105,7 +112,6 @@
     display: flex;
     transition: transform 0.5s ease-in-out;
     height: 250px;
-    overflow: hidden;
 }
 
 .carousel__feedback-card {
@@ -117,12 +123,13 @@
 .testimonials__carousel-button {
     position: absolute;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     background: transparent;
     border: none;
     font-size: 10px;
     cursor: pointer;
 }
+
 
 .testimonials__carousel-button :hover {
     background-color: var(--color-titles);
@@ -158,6 +165,6 @@
 
 @media (min-width: 1200px) {
     .carousel__feedback-list {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
     }
 }

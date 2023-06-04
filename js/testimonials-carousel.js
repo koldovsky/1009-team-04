@@ -31,6 +31,14 @@ carouselItem.addEventListener('transitionend', () => {
     }
 });
 
+window.addEventListener('resize', () => {
+    const newPageSize = calculatePageSize();
+    if (pageSize !== newPageSize) {
+        pageSize = newPageSize;
+        updateCarousel();
+    }
+});
+
 window.addEventListener('resize', updateCarousel);
 
 updateCarousel();
