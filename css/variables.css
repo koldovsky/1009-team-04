@@ -22,4 +22,6 @@
     --color-for-text-paragraph: white;
     --color-for-background-good-cigars-brown:rgb(63, 50, 41);
     --color-for-background-good-cigars-green:rgba(49, 53, 35, 0.95);
+    --color-for-background-testimonials:#1b191a;
+    --color-for-background-testimonials__partners-feedback:#232323;
 }

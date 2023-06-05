@@ -6,6 +6,7 @@
     padding-top: 90px;
     padding-bottom: 90px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .brand-info-about-tobacco {
@@ -29,6 +30,7 @@
 
 .brand-info-about-tobacco__arrow {
     width: 250px;
+    object-fit: contain;
     margin: auto;
     padding: 20px;
 }
@@ -47,6 +49,7 @@
     background-clip: border-box;
     background-color: var(--color-for-background-good-cigars-brown);
     background-origin: padding-box;
+    border-image-repeat: stretch;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,8 +147,7 @@
 @media (min-width: 480px) {
     .info-about__quality-of-production {
         display: flex;
-        flex-direction: column
-        flex-basis: 50%;
+        flex-direction: column flex-basis: 50%;
     }
 
     .quality-of-production__picture {
@@ -170,23 +172,22 @@
     }
 
     .cigars-production__picture {
+        display: flex;
         width: 294px;
         height: 434px;
-        align-items: flex-end;
     }
 
     .cigars-production__description {
         display: flex;
         flex-direction: column;
         text-align: left;
-        align-items: flex-start;
         padding: 40px 60px;
     }
-    .cigars-production__title{
+
+    .cigars-production__title {
         font-size: 24px;
     }
 }
-
 
 @media (min-width: 768px) {
     .info-about__quality-of-production {
@@ -209,7 +210,7 @@
         padding: 40px 60px;
     }
 
-    .quality-of-production__title{
+    .quality-of-production__title {
         font-size: 24px;
     }
 }
@@ -236,11 +237,11 @@
         height: 300px;
     }
 
-    .cigars-production__title{
+    .cigars-production__title {
         font-size: 24px;
     }
 
-    .quality-of-production__title{
+    .quality-of-production__title {
         font-size: 24px;
     }
 }

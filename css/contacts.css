@@ -124,11 +124,19 @@ textarea {
     .contacts__form {
         padding: 46px 70px;
     }
+
+    .contacts__title {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 992px) {
 
     .contacts__form {
         padding: 50px 100px;
+    }
+
+    .contacts__title {
+        font-size: 46px;
     }
 }
