@@ -9,7 +9,7 @@
     font-family: 'BenchNine';
     font-style: normal;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 38px;
     line-height: 53px;
     display: flex;
     align-items: center;
@@ -38,15 +38,35 @@
     margin-bottom: 20px;
 }
 
-.cooperation-options-description {
+.cooperation-options-description-background {
+    background-image: url(images/cooperation-options1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 82%;
+    min-width: 300px;
     margin-bottom: 30px;
+}
+
+.cooperation-options-description-background-eclipse {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.cooperation-options-description-background:last-child {
+    background-image: url(images/cooperation-options2.png);
+}
+
+.cooperation-options-description {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .cooperation-options-description:last-child {
-    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .cooperation-options-description-title {
@@ -61,6 +81,7 @@
     letter-spacing: 0.78px;
     color: #FFFFFF;
     margin-bottom: 20px;
+    margin-top: 120px;
 }
 
 .cooperation-options-description-text {
@@ -77,6 +98,7 @@
 
 .cooperation-options-description-buttonbox {
     margin-top: 40px;
+    margin-bottom: 120px;
 }
 
 .cooperation-options-description-button {
