@@ -4,3 +4,4 @@ document.addEventListener("partialsLoaded", () => {
   import('./gallery-carousel.js');
   import('./age-restriction.js');
 });
+

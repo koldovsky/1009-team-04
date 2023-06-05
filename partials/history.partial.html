@@ -1,8 +1,9 @@
+
     <section class="history ">
         <div class="history__information history__container">
             <h2 class="history__big-title">HISTORY</h2>
             <img class="history__title-decoration" src="images/arrow.png" alt="decoration">
-            <p class="history__about-their">For over 50 years, we have been engaged in tobacco growing and the production of cigars and other tobacco products.</p>
+            <p class="history__about-their">For over <span class="history__about_older"> 50 years </span>, we have been engaged in tobacco growing and the production of cigars and other tobacco products.</p>
             <div class="history__of-date">
                 <div class="history__of-date__four-date">
                     <img class="history__image__four-date" src="images/history_1.jpg" alt="sigara">
@@ -25,7 +26,17 @@
                     <p class="history__about-date__four-date">Establishment of the fifth tobacco factory in Cuba. Market launch of 3 new cigar brands.</p>
                 </div>
             </div>
-                    <a href="#" class="history__button__four-date">MORE ABOUT US</a>
+                    <a class="history__button__four-date" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MORE ABOUT US
+                    </a>
+                      
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Сigar</a>
+                    <a class="dropdown-item" href="#">Tobacco</a>
+                    <a class="dropdown-item" href="#">Production</a>
+                    </div>
+                    
+                </div>
         </div>
                    
     </section>

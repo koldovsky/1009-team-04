@@ -41,17 +41,37 @@ function updateDots() {
 };
 
 function updateCarousel() {
+    const totalItems = carouselItems.length;
+    const remainingItems = totalItems - currentIndex;
+    const visibleItems = Math.min(pageSize, remainingItems);
+
     carouselItem.style.transform = `translateX(-${currentIndex * (100 / pageSize)}%)`;
+
+    if (remainingItems < pageSize + 1) {
+        const emptySpace = pageSize + 1 - remainingItems;
+        for (let i = 0; i < emptySpace; i++) {
+            const cloneIndex = (currentIndex + i) % totalItems;
+            const cloneItem = carouselItems[cloneIndex].cloneNode(true);
+            cloneItem.classList.add('carousel__item--clone');
+            carouselItem.appendChild(cloneItem);
+        }
+    }
+
     updateDots();
 };
 
+
+
+
+
+
 prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - pageSize + carouselItems.length) % carouselItems.length;
+    currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
     updateCarousel();
 });
 
 nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + pageSize) % carouselItems.length;
+    currentIndex = (currentIndex + 1) % carouselItems.length;
     updateCarousel();
 });
 
