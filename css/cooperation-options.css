@@ -39,7 +39,7 @@
 }
 
 .cooperation-options-description-background {
-    background-image: url(images/cooperation-options1.png);
+    background-image: url(/images/cooperation-options1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -54,7 +54,7 @@
 }
 
 .cooperation-options-description-background:last-child {
-    background-image: url(images/cooperation-options2.png);
+    background-image: url(/images/cooperation-options2.png);
 }
 
 .cooperation-options-description {
@@ -116,6 +116,11 @@
     color: #FFFFFF;
     background: #C5A35C;
     padding: 15px 20px 15px 20px;
+}
+
+.cooperation-options-description-button:hover {
+    background-color: rgb(81, 69, 60);
+    transition: background-color 1s ease;
 }
 
 *{
