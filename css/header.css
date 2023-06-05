@@ -6,46 +6,132 @@
   background-repeat: no-repeat;
   position: relative;
 }
- .button-container {
-  display: flex;
-  justify-content: center; 
-  }
-  .button-container button {
-  background-color: #c5a35c;
-  border: 4px;
-  border-color: white;
-  color: white;
-  border: none;
-  position: absolute;
-  padding: 100px 110px
-  font-size: 300px;
-  }
 
 .header__cigars-logo {
-    z-index: 1;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%;
-  height: auto;
-  
-  .header__logo {
-    z-index: 2;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
+  width: 55%;
   height: auto;
 }
-  .header__menu {
+  .havana__photo {
+   background-image: url("images/havana1.png");
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  transform: translate(-10%, -90%);
+  max-width: 15%;
+  height: auto;
+}
+
+:root {
+  --header-menu-link: white;
+  --header-background-color: transparent;
+}
+  .header__container {
+  background-color: var(--header-background-color);  
+  color: var(--header-menu-link);
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
   position: absolute;
   font-family: Roboto;
   font-size: 16px;
   font-weight: bold;
-  color: white;
+  top:0;
+  right:0;
+  margin: 0;
+  padding: 0;
+    z-index: 2;
+
   }
+.header__menu-link {
+  background-color: var(--header-background-color);  
+  color: var(--header-menu-link);
+  text-decoration:none;
+}
+.header__menu-item {
+display:inline;  
+  padding: 10px;
+}
+.header__menu {
+   margin-top: 30px;
+}
+:root {
+  --button-background-color: transparent;
+  --button-text-color: white;
+}
+.button-rqaq {
+  background-color: var(--button-background-color);
+ color: var(--button-text-color);
+ text-decoration: none;
+ text-align: center;
+ padding: 10px 20px;
+ border: 2px solid var(--border-color);
+   border-radius: 0;
+   max-width: 60%;
+  height:auto;
+  margin-top:30px;
+}
+
+:root {
+  --button-background-color: transparent;
+  --button-text-color: white;
+  --button-hover-background-color:  #C5A35C;
+  --border-color: white;
+}
+.header__about-us {
+ background-color: var(--button-background-color);
+ color: var(--button-text-color);
+ text-decoration: none;
+ text-align: center;
+ padding: 10px 20px;
+ border: 2px solid var(--border-color);
+ top: 95%;
+ left: 45%;
+ border-radius: 0;
+ font-size: 16px;
+ cursor: pointer;
+ transform: translate(-60%, -40%);
+ display: inline-block;
+ position: absolute;
+ max-width: 100%;
+ cursor: pointer;
+  margin: 10px;
+ z-index:2;
+}
+.header__about-us-info {
+ color: var(--button-text-color);
+   text-decoration:none;
+}
+
+.header__contact-us {
+ background-color: var(--button-hover-background-color);
+ color: var(--button-text-color);
+ padding: 10px 20px;
+ border: 0;
+ top: 95%;
+ left: 55%;
+ border-radius: 0;
+ font-size: 16px;
+ cursor: pointer;
+ transform: translate(-50%, -50%);
+ position: absolute;
+ display: inline-block;
+ max-width: 100%;
+ text-decoration: none;
+ text-align: center;
+ cursor: pointer;
+  margin:10px;
+ z-index:2;
+  }
+.header__contact-us-button {
+ color: var(--button-text-color);
+  text-decoration:none;
+}
 </style>
 
 
