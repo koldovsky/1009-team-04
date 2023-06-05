@@ -2,7 +2,7 @@
     background-color: var(--color-for-background-testimonials);
     background-size: cover;
     padding: 90px 15px;
-
+    overflow: hidden;
 }
 
 .testimonials__description {
@@ -53,6 +53,7 @@
     margin-top: 25px;
     width: 100%;
     overflow: hidden;
+    margin: auto;
 }
 
 .carousel__feedback-card {
@@ -64,6 +65,7 @@
     padding-bottom: 20px;
     text-align: center;
     padding: 20px;
+    object-fit: cover;
 }
 
 
@@ -115,9 +117,11 @@
 }
 
 .carousel__feedback-card {
+    display: flex;
     flex: 0 0 100%;
     padding: 20px;
     box-sizing: border-box;
+    background-origin: padding-box;
 }
 
 .testimonials__carousel-button {
@@ -160,7 +164,7 @@
 @media (min-width: 992px) {
     .carousel__feedback-list {
         grid-template-columns: 1fr 1fr 1fr;
-    }
+}
 }
 
 @media (min-width: 1200px) {

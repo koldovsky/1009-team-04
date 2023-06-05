@@ -1,53 +1,43 @@
 const carousel = document.querySelector('.testimonials__carousel');
-const carouselItem = carousel.querySelector('.carousel__feedback-list');
+const carouselInner = carousel.querySelector('.carousel__feedback-list');
 const prevButton = carousel.querySelector('.button--left');
 const nextButton = carousel.querySelector('.button--right');
-const carouselItems = carouselItem.querySelectorAll('.carousel__feedback-card');
+const carouselCards = carouselInner.querySelectorAll('.carousel__feedback-card');
 
 let currentIndex = 0;
-let pageSize = calculatePageSize();
+let cardsInARow;
+let cardSize;
 
-function calculatePageSize() {
-    if (window.innerWidth >= 1024) {
-        return 3;
-    } else if (window.innerWidth >= 768) {
-        return 2;
-    } else {
-        return 1;
-    }
+setCardsSettings();
+window.addEventListener("resize", setCardsSettings, true);
+
+
+function setCardsSettings() {
+    if (window.innerWidth >= 1024) cardsInARow = 4;
+    else if (window.innerWidth > 768) cardsInARow = 2;
+    else cardsInARow = 1;
+
+    cardSize = 100 / cardsInARow;
+    currentIndex = 0;
+	updateCarousel();
 };
 
+
 function updateCarousel() {
-    carouselItem.style.transform = `translateX(-${currentIndex * (100 / pageSize)}%)`;
-    updateDots();
+    carouselInner.style.transform = `translateX(-${currentIndex * cardSize}%)`;
 };
 
 prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - pageSize + carouselItems.length) % carouselItems.length;
+    if (currentIndex === 0) currentIndex = carouselCards.length - cardsInARow;
+    else currentIndex--;
+    
     updateCarousel();
 });
 
 nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + pageSize) % carouselItems.length;
+    if (currentIndex + cardSize === carouselCards.length) currentIndex = 0;
+    else currentIndex++;
+
     updateCarousel();
 });
 
-carouselItem.addEventListener('transitionend', () => {
-    if (currentIndex === carouselItems.length - pageSize) {
-        carouselItem.style.transition = 'none';
-        updateCarousel();
-    } else if (currentIndex === 0) {
-        carouselItem.style.transition = 'none';
-        updateCarousel();
-    }
-});
-
-window.addEventListener('resize', () => {
-    const newPageSize = calculatePageSize();
-    if (pageSize !== newPageSize) {
-        pageSize = newPageSize;
-        updateCarousel();
-    }
-});
-
-updateCarousel();
