@@ -56,24 +56,31 @@
 .info__founders--text {
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
 }
 
+
+  
 .info__founders img {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
     position: relative;
     border-radius: 50%;
-    width: 350px;
-    height: 600px;
+    width: 120px;
+    height: 120px;
 }
 
-.info__founders--socialicon {
+.info__founders--socialicon svg{
     border: solid #d0c8b9;
+    
 }
 
 .info__founders--john,
 .info__founders--jack,
 .info__founders--hugh {
     background-color: #1b191a;
+    width: 300px;
+    height: 500px;
 }
