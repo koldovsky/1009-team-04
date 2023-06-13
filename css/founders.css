@@ -1,5 +1,9 @@
-.container {
+.founders {
     background: url(../images/background-contacts.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 @media (min-width: 750px) {
@@ -21,8 +25,18 @@
     }
 }
 
-.founders__info {
+.info__founders--socialicon {
     text-align: center;
+}
+.founders__info {
+    position: center;
+}
+
+.founders__info--arrow {
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 25px;
 }
 
 .founders__info--title,
@@ -50,8 +64,8 @@
     margin-right: auto;
     position: relative;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 350px;
+    height: 600px;
 }
 
 .info__founders--socialicon {
