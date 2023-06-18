@@ -2,7 +2,7 @@ const carousel = document.querySelector('.testimonials__carousel');
 const carouselItem = carousel.querySelector('.carousel__feedback-list');
 const prevButton = carousel.querySelector('.button--left');
 const nextButton = carousel.querySelector('.button--right');
-const carouselItems = carouselInner.querySelectorAll('.carousel__feedback-card');
+const carouselItems = carouselItem.querySelectorAll('.carousel__feedback-card');
 
 let currentIndex = 0;
 let pageSize = calculatePageSize();
@@ -24,17 +24,18 @@ function updateCarousel() {
     const remainingItems = totalItems - currentIndex;
     const visibleItems = Math.min(pageSize, remainingItems);
 
-carouselItem.style.transform = `translateX(-${currentIndex * (100 / pageSize)}%)`;
+    carouselItem.style.transform = `translateX(-${currentIndex * (100 / pageSize)}%)`;
 
-if (remainingItems < pageSize + 1) {
-    const emptySpace = pageSize + 1 - remainingItems;
-    for (let i = 0; i < emptySpace; i++) {
-        const cloneIndex = (currentIndex + i) % totalItems;
-        const cloneItem = carouselItems[cloneIndex].cloneNode(true);
-        cloneItem.classList.add('carousel__feedback-card--clone');
-        carouselItem.appendChild(cloneItem);
+    if (remainingItems < pageSize + 1) {
+        const emptySpace = pageSize + 1 - remainingItems;
+        for (let i = 0; i < emptySpace; i++) {
+            const cloneIndex = (currentIndex + i) % totalItems;
+            const cloneItem = carouselItems[cloneIndex].cloneNode(true);
+            cloneItem.classList.add('carousel__feedback-card--clone');
+            carouselItem.appendChild(cloneItem);
+        }
     }
-}
+    updateCarousel()
 }
 
 prevButton.addEventListener('click', () => {
@@ -47,3 +48,22 @@ nextButton.addEventListener('click', () => {
     updateCarousel();
 });
 
+carouselItem.addEventListener('transitionend', () => {
+    if (currentIndex === carouselItems.length - pageSize) {
+        carouselItem.style.transition = 'none';
+        updateCarousel();
+    } else if (currentIndex === 0) {
+        carouselItem.style.transition = 'none';
+        updateCarousel();
+    }
+});
+
+window.addEventListener('resize', () => {
+    const newPageSize = calculatePageSize();
+    if (pageSize !== newPageSize) {
+        pageSize = newPageSize;
+        updateCarousel();
+    }
+});
+
+updateCarousel();
